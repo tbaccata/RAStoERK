@@ -1,0 +1,13 @@
+set	count	type
+missing	729	WT
+MEK2	57	WT
+MEK1	68	WT
+common	41	WT
+missing	671	Inactive
+MEK2	149	Inactive
+MEK1	38	Inactive
+common	37	Inactive
+missing	112	Active
+MEK2	554	Active
+MEK1	100	Active
+common	129	Active

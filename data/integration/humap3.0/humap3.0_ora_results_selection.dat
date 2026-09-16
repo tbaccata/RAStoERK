@@ -1,0 +1,73 @@
+type	id	annotation	comment
+bait	huMAP3_14584.1	CCT	
+bait	huMAP3_10656.1	CCT	
+bait	huMAP3_11629.1	PI3K	
+bait	huMAP3_11913.1	PI3K	
+bait	huMAP3_14681.1	PKC	
+bait	huMAP3_11135.1	PKC	
+bait	huMAP3_15260.1	NGF-stimulated transcription
+bait	huMAP3_08021.1	NGF-stimulated transcription
+bait	huMAP3_09165.1	plasma membrane
+bait	huMAP3_11173.1	Signal amplification	WT
+bait	huMAP3_07439.1	ERK signaling	WT
+bait	huMAP3_14776.1	ERK signaling	WT
+bait	huMAP3_06300.1	ERK signaling	WT
+bait	huMAP3_04917.1	RAF signaling	
+bait	huMAP3_14744.1	RAF signaling	
+bait	huMAP3_09817.1	ERK signaling	
+bait	huMAP3_05596.1	ubiquitination	
+bait	huMAP3_10385.1	SAGA complex	
+bait	huMAP3_09385.1	Cell−extracellular matrix interactions	WT
+bait	huMAP3_10784.1	migration	
+bait	huMAP3_08550.1	Proteasome	
+bait	huMAP3_13725.1	Proteasome	
+bait	huMAP3_01958.1	phosphatases	
+bait	huMAP3_14882.1	gamma-tubulin complex	WT
+bait	huMAP3_11094.1	RAB geranylgeranylation	Inactive
+bait	huMAP3_06267.1	ubiquitination	Inactive
+bait	huMAP3_11083.1	Post−transcriptional silencing by small RNAs	WT
+tier	huMAP3_14584.1	CCT	maybe
+tier	huMAP3_10656.1	CCT	maybe
+tier	huMAP3_06994.1	RAB geranylgeranylation	Inactive
+tier	huMAP3_07302.1	RAB geranylgeranylation	Inactive
+tier	huMAP3_06607.1	RAB geranylgeranylation	Inactive
+tier	huMAP3_13725.1	Proteasome	
+tier	huMAP3_05064.1	Proteasome	
+tier	huMAP3_14776.1	ERK signaling	WT
+tier	huMAP3_07439.1	ERK signaling	WT
+tier	huMAP3_13639.1	KELCH-like domain
+tier	huMAP3_10939.1	KELCH-like domain
+tier	huMAP3_13205.1	Post−transcriptional silencing by small RNAs	WT
+tier	huMAP3_06571.1	Post−transcriptional silencing by small RNAs	WT
+tier	huMAP3_07613.1	Post−transcriptional silencing by small RNAs	WT
+tier	huMAP3_03789.1	SAGA complex
+tier	huMAP3_08205.1	migration	
+tier	huMAP3_06763.1	actin cytoskeleton	
+tier	huMAP3_05977.1	focal adhesion	
+tier	huMAP3_06853.1	ephrin signaling	
+tier	huMAP3_00699.1	ephrin signaling	
+tier	huMAP3_10503.1	Integrin cell surface interactions	
+tier	huMAP3_06892.1	Integrin cell surface interactions	
+tier	huMAP3_14792.1	Integrin cell surface interactions	galactins
+tier	huMAP3_10212.1	Tight junction interactions	
+tier	huMAP3_12987.1	Tight junction interactions	LLGL1,polarity
+tier	huMAP3_14886.1	CDC42 GTPase cycle	ARHGEF7,GIT
+tier	huMAP3_13927.1	CDC42 GTPase cycle	ARHGEF7,GIT
+tier	huMAP3_10898.1	RAF signaling	maybe
+tier	huMAP3_14118.1	RAF signaling	maybe
+tier	huMAP3_10784.1	leading edge dynamics	
+tier	huMAP3_09579.1	leading edge dynamics	
+tier	huMAP3_10824.1	Signal amplification	WT
+tier	huMAP3_11173.1	Signal amplification	WT
+tier	huMAP3_12729.1	Signal amplification	WT
+tier	huMAP3_13380.1	Signal amplification	WT
+tier	huMAP3_09779.1	Proteasome	
+tier	huMAP3_11194.1	Cell−extracellular matrix interactions	WT
+tier	huMAP3_11626.1	semaphorin	
+tier	huMAP3_12079.1	phosphatases	
+tier	huMAP3_14681.1	PKC	
+tier	huMAP3_14882.1	gamma-tubulin complex	WT
+tier	huMAP3_09354.1	Signaling by MRAS−complex mutants	
+tier	huMAP3_10673.1	Apoptotic cleavage of cell adhesion proteins	maybe
+tier	huMAP3_10893.1	focal adhesion	
+tier	huMAP3_10270.1	focal adhesion	Inactive

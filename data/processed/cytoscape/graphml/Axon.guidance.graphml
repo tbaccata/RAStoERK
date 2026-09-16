@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_signProts" for="node" attr.name="signProts" attr.type="string"/>
+  <key id="v_nTiers" for="node" attr.name="nTiers" attr.type="double"/>
+  <key id="v_tiers" for="node" attr.name="tiers" attr.type="string"/>
+  <key id="v_specific" for="node" attr.name="specific" attr.type="string"/>
+  <key id="v_RAS" for="node" attr.name="RAS" attr.type="double"/>
+  <key id="v_RAF" for="node" attr.name="RAF" attr.type="double"/>
+  <key id="v_MEK" for="node" attr.name="MEK" attr.type="double"/>
+  <key id="v_ERK" for="node" attr.name="ERK" attr.type="double"/>
+  <key id="v_KRAS" for="node" attr.name="KRAS" attr.type="double"/>
+  <key id="v_NRAS" for="node" attr.name="NRAS" attr.type="double"/>
+  <key id="v_HRAS" for="node" attr.name="HRAS" attr.type="double"/>
+  <key id="v_ARAF" for="node" attr.name="ARAF" attr.type="double"/>
+  <key id="v_BRAF" for="node" attr.name="BRAF" attr.type="double"/>
+  <key id="v_RAF1" for="node" attr.name="RAF1" attr.type="double"/>
+  <key id="v_MEK1" for="node" attr.name="MEK1" attr.type="double"/>
+  <key id="v_MEK2" for="node" attr.name="MEK2" attr.type="double"/>
+  <key id="v_ERK1" for="node" attr.name="ERK1" attr.type="double"/>
+  <key id="v_ERK2" for="node" attr.name="ERK2" attr.type="double"/>
+  <key id="v_method" for="node" attr.name="method" attr.type="string"/>
+  <key id="v_pie1" for="node" attr.name="pie1" attr.type="double"/>
+  <key id="v_pie2" for="node" attr.name="pie2" attr.type="double"/>
+  <key id="v_pie3" for="node" attr.name="pie3" attr.type="double"/>
+  <key id="v_pie4" for="node" attr.name="pie4" attr.type="double"/>
+  <key id="v_pie5" for="node" attr.name="pie5" attr.type="double"/>
+  <key id="v_pie6" for="node" attr.name="pie6" attr.type="double"/>
+  <key id="v_pie7" for="node" attr.name="pie7" attr.type="double"/>
+  <key id="v_pie8" for="node" attr.name="pie8" attr.type="double"/>
+  <key id="v_pie9" for="node" attr.name="pie9" attr.type="double"/>
+  <key id="v_pie10" for="node" attr.name="pie10" attr.type="double"/>
+  <key id="v_localization" for="node" attr.name="localization" attr.type="string"/>
+  <key id="e_score" for="edge" attr.name="score" attr.type="double"/>
+  <key id="e_physical" for="edge" attr.name="physical" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">EFNB1</data>
+      <data key="v_signProts">ARAF</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">ARAF</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">100</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">MYH9</data>
+      <data key="v_signProts">HRAS_BRAF_RAF1_ERK2</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAS_RAF_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">1</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">25</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">25</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">25</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">PIK3R2</data>
+      <data key="v_signProts">KRAS_NRAS_ARAF_RAF1</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">25</data>
+      <data key="v_pie2">25</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">25</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">PFN1</data>
+      <data key="v_signProts">HRAS_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">PIK3R3</data>
+      <data key="v_signProts">NRAS_HRAS_ARAF_RAF1_ERK1_ERK2</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">1</data>
+      <data key="v_ERK2">1</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">16.6666666666667</data>
+      <data key="v_pie3">16.6666666666667</data>
+      <data key="v_pie4">16.6666666666667</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">16.6666666666667</data>
+      <data key="v_pie10">16.6666666666667</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">GPC1</data>
+      <data key="v_signProts">NRAS_ARAF_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">16.6666666666667</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">16.6666666666667</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">16.6666666666667</data>
+      <data key="v_pie8">16.6666666666667</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">NRP1</data>
+      <data key="v_signProts">RAF1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">RAF1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">100</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">ITGA1</data>
+      <data key="v_signProts">KRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">KRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">100</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">ITGA5</data>
+      <data key="v_signProts">KRAS_HRAS</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">50</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">ITGA2</data>
+      <data key="v_signProts">KRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">KRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">100</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">NEO1</data>
+      <data key="v_signProts">ARAF_MEK2_ERK1_ERK2</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAF_MEK_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">1</data>
+      <data key="v_ERK2">1</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">25</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">25</data>
+      <data key="v_pie9">25</data>
+      <data key="v_pie10">25</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">SPTBN1</data>
+      <data key="v_signProts">NRAS_HRAS_ARAF_BRAF_RAF1</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">20</data>
+      <data key="v_pie3">20</data>
+      <data key="v_pie4">20</data>
+      <data key="v_pie5">20</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">EPHB4</data>
+      <data key="v_signProts">HRAS_ARAF</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">EPHA2</data>
+      <data key="v_signProts">HRAS_ARAF_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">16.6666666666667</data>
+      <data key="v_pie4">16.6666666666667</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">16.6666666666667</data>
+      <data key="v_pie8">16.6666666666667</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">MYH10</data>
+      <data key="v_signProts">RAF1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">RAF1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">100</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">EPHA7</data>
+      <data key="v_signProts">HRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">HRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">100</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">NRAS</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF_BRAF_RAF1</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">16.6666666666667</data>
+      <data key="v_pie2">16.6666666666667</data>
+      <data key="v_pie3">16.6666666666667</data>
+      <data key="v_pie4">16.6666666666667</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">GIT1</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">ARPC4</data>
+      <data key="v_signProts">HRAS_MEK2</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">50</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">HRAS</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF_BRAF_RAF1_MEK1</data>
+      <data key="v_nTiers">7</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">14.2857142857143</data>
+      <data key="v_pie2">14.2857142857143</data>
+      <data key="v_pie3">14.2857142857143</data>
+      <data key="v_pie4">14.2857142857143</data>
+      <data key="v_pie5">14.2857142857143</data>
+      <data key="v_pie6">14.2857142857143</data>
+      <data key="v_pie7">14.2857142857143</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">ROBO1</data>
+      <data key="v_signProts">HRAS_ARAF_RAF1</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">33.3333333333333</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">33.3333333333333</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">MYO10</data>
+      <data key="v_signProts">ARAF_BRAF_RAF1</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">33.3333333333333</data>
+      <data key="v_pie5">33.3333333333333</data>
+      <data key="v_pie6">33.3333333333333</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">SLIT2</data>
+      <data key="v_signProts">NRAS_HRAS_ARAF_BRAF_RAF1_MEK1_ERK1_ERK2</data>
+      <data key="v_nTiers">8</data>
+      <data key="v_tiers">RAS_RAF_MEK_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">1</data>
+      <data key="v_ERK2">1</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">12.5</data>
+      <data key="v_pie3">12.5</data>
+      <data key="v_pie4">12.5</data>
+      <data key="v_pie5">12.5</data>
+      <data key="v_pie6">12.5</data>
+      <data key="v_pie7">12.5</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">12.5</data>
+      <data key="v_pie10">12.5</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">PIK3R1</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF_RAF1</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">20</data>
+      <data key="v_pie2">20</data>
+      <data key="v_pie3">20</data>
+      <data key="v_pie4">20</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">LYN</data>
+      <data key="v_signProts">KRAS_BRAF_RAF1</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">33.3333333333333</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">33.3333333333333</data>
+      <data key="v_pie6">33.3333333333333</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">SPTBN2</data>
+      <data key="v_signProts">HRAS_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">DOCK1</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">EFNB2</data>
+      <data key="v_signProts">HRAS_ARAF_MEK2</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">33.3333333333333</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">33.3333333333333</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">ARHGEF7</data>
+      <data key="v_signProts">NRAS_HRAS_MEK2</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">33.3333333333333</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">33.3333333333333</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">SPTAN1</data>
+      <data key="v_signProts">NRAS_HRAS_ARAF_BRAF_RAF1</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">20</data>
+      <data key="v_pie3">20</data>
+      <data key="v_pie4">20</data>
+      <data key="v_pie5">20</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">MYL6</data>
+      <data key="v_signProts">HRAS_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">actin_cytoskeleton</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">YES1</data>
+      <data key="v_signProts">KRAS_BRAF</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">50</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">SDC2</data>
+      <data key="v_signProts">BRAF_ERK1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">1</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">50</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">CNTN1</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">25</data>
+      <data key="v_pie2">25</data>
+      <data key="v_pie3">25</data>
+      <data key="v_pie4">25</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_localization">plasma_membrane</data>
+    </node>
+    <edge source="n0" target="n10">
+      <data key="e_score">0.526</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_score">0.539</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n0" target="n28">
+      <data key="e_score">0.584</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n17">
+      <data key="e_score">0.8</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n15">
+      <data key="e_score">0.856</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_score">0.932</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n27">
+      <data key="e_score">0.949</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n12">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_score">0.557</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n1" target="n21">
+      <data key="e_score">0.583</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n1" target="n18">
+      <data key="e_score">0.644</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="e_score">0.671</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n29">
+      <data key="e_score">0.848</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n14">
+      <data key="e_score">0.985</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n30">
+      <data key="e_score">0.998</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n17">
+      <data key="e_score">0.437</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n2" target="n27">
+      <data key="e_score">0.487</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n2" target="n31">
+      <data key="e_score">0.554</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="e_score">0.578</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_score">0.907</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n2" target="n24">
+      <data key="e_score">0.93</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n19">
+      <data key="e_score">0.93</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n16">
+      <data key="e_score">0.933</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n23">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n18">
+      <data key="e_score">0.468</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n3" target="n20">
+      <data key="e_score">0.513</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n22">
+      <data key="e_score">0.522</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n4" target="n17">
+      <data key="e_score">0.403</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n4" target="n13">
+      <data key="e_score">0.551</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n4" target="n31">
+      <data key="e_score">0.728</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_score">0.913</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n4" target="n24">
+      <data key="e_score">0.921</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n4" target="n19">
+      <data key="e_score">0.922</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n4" target="n16">
+      <data key="e_score">0.923</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n4" target="n23">
+      <data key="e_score">0.997</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n5" target="n22">
+      <data key="e_score">0.936</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n5" target="n32">
+      <data key="e_score">0.989</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_score">0.442</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n6" target="n8">
+      <data key="e_score">0.455</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n6" target="n27">
+      <data key="e_score">0.813</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n20">
+      <data key="e_score">0.933</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n30">
+      <data key="e_score">0.517</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_score">0.947</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n9">
+      <data key="e_score">0.969</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n8" target="n24">
+      <data key="e_score">0.483</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n8" target="n12">
+      <data key="e_score">0.495</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n8" target="n13">
+      <data key="e_score">0.53</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_score">0.962</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n9" target="n22">
+      <data key="e_score">0.412</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n9" target="n21">
+      <data key="e_score">0.44</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n9" target="n24">
+      <data key="e_score">0.771</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n9" target="n23">
+      <data key="e_score">0.916</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n10" target="n20">
+      <data key="e_score">0.459</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n10" target="n27">
+      <data key="e_score">0.504</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n10" target="n21">
+      <data key="e_score">0.877</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n11" target="n23">
+      <data key="e_score">0.413</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n11" target="n19">
+      <data key="e_score">0.573</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_score">0.58</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n11" target="n25">
+      <data key="e_score">0.738</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n11" target="n29">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n28">
+      <data key="e_score">0.514</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n17">
+      <data key="e_score">0.55</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="e_score">0.622</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_score">0.808</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n27">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n22">
+      <data key="e_score">0.401</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n13" target="n19">
+      <data key="e_score">0.488</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n13" target="n16">
+      <data key="e_score">0.498</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n13" target="n17">
+      <data key="e_score">0.624</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n13" target="n23">
+      <data key="e_score">0.733</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n24">
+      <data key="e_score">0.775</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="e_score">0.823</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n27">
+      <data key="e_score">0.973</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n14" target="n21">
+      <data key="e_score">0.409</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n14" target="n30">
+      <data key="e_score">0.997</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n15" target="n22">
+      <data key="e_score">0.482</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n15" target="n27">
+      <data key="e_score">0.907</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n16" target="n29">
+      <data key="e_score">0.58</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n16" target="n25">
+      <data key="e_score">0.594</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n16" target="n31">
+      <data key="e_score">0.728</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n16" target="n24">
+      <data key="e_score">0.794</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n16" target="n19">
+      <data key="e_score">0.932</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n16" target="n23">
+      <data key="e_score">0.956</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n17" target="n23">
+      <data key="e_score">0.406</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n17" target="n26">
+      <data key="e_score">0.412</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n17" target="n27">
+      <data key="e_score">0.775</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n17" target="n28">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n18" target="n21">
+      <data key="e_score">0.499</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n19" target="n25">
+      <data key="e_score">0.562</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n19" target="n29">
+      <data key="e_score">0.586</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n19" target="n31">
+      <data key="e_score">0.714</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n19" target="n24">
+      <data key="e_score">0.772</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n19" target="n23">
+      <data key="e_score">0.99</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n20" target="n27">
+      <data key="e_score">0.423</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n20" target="n22">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n21" target="n22">
+      <data key="e_score">0.439</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n22" target="n27">
+      <data key="e_score">0.435</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n23" target="n31">
+      <data key="e_score">0.707</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n23" target="n24">
+      <data key="e_score">0.964</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n24" target="n31">
+      <data key="e_score">0.823</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n25" target="n29">
+      <data key="e_score">0.959</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n26" target="n28">
+      <data key="e_score">0.587</data>
+      <data key="e_physical">no</data>
+    </edge>
+    <edge source="n27" target="n28">
+      <data key="e_score">0.613</data>
+      <data key="e_physical">yes</data>
+    </edge>
+  </graph>
+</graphml>

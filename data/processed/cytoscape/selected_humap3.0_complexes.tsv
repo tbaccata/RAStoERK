@@ -1,0 +1,541 @@
+from	to	type	width	color	network	category	strict_type
+ERK1WT	IRS2	shared	1.5	grey80	WT	PI3K	both
+ARAFWT	IRS2	AP-MS	1.5	skyblue	WT	PI3K	AP-MS
+ARAFWT	IRS4	shared	1.5	grey80	WT	PI3K	both
+RAF1WT	IRS4	shared	1.5	grey80	WT	PI3K	both
+HRASWT	PIK3CA	shared	1.5	grey80	WT	PI3K	both
+RAF1WT	PIK3R1	shared	1.5	grey80	WT	PI3K	both
+ARAFWT	PIK3R1	core	1.5	grey80	WT	PI3K	both
+ARAFWT	PIK3R2	shared	1.5	grey80	WT	PI3K	both
+ARAFWT	PIK3R3	core	1.5	grey80	WT	PI3K	both
+ERK2WT	PIK3R3	shared	1.5	grey80	WT	PI3K	both
+RAF1WT	PIK3R3	core	1.5	grey80	WT	PI3K	both
+ERK1WT	PIK3R3	TbID	1.5	pink	WT	PI3K	TbID
+PIK3R1	PIK3CA	CORUM	1.5	black	WT	PI3K	CORUM
+PIK3CA	PIK3R2	CORUM	1.5	black	WT	PI3K	CORUM
+PIK3R1	PIK3CA	SIGNOR	1.5	#33a02c	WT	PI3K	SIGNOR
+PIK3CA	IRS2	SIGNOR	1.5	#33a02c	WT	PI3K	SIGNOR
+PIK3CA	PIK3R3	SIGNOR	1.5	#33a02c	WT	PI3K	SIGNOR
+HRASS17N	IRS2	AP-MS	1.5	skyblue	Inactive	PI3K	AP-MS
+ERK1AA	IRS2	AP-MS	1.5	skyblue	Inactive	PI3K	AP-MS
+NRASS17N	IRS2	AP-MS	1.5	skyblue	Inactive	PI3K	AP-MS
+ARAFD447A	IRS4	shared	1.5	grey80	Inactive	PI3K	both
+RAF1D486A	IRS4	shared	1.5	grey80	Inactive	PI3K	both
+RAF1D486A	PIK3CA	shared	1.5	grey80	Inactive	PI3K	both
+ARAFD447A	PIK3R1	core	1.5	grey80	Inactive	PI3K	both
+RAF1D486A	PIK3R1	core	1.5	grey80	Inactive	PI3K	both
+RAF1D486A	PIK3R2	shared	1.5	grey80	Inactive	PI3K	both
+RAF1D486A	PIK3R3	core	1.5	grey80	Inactive	PI3K	both
+ARAFD447A	PIK3R3	core	1.5	grey80	Inactive	PI3K	both
+PIK3R1	PIK3CA	CORUM	1.5	black	Inactive	PI3K	CORUM
+PIK3CA	PIK3R2	CORUM	1.5	black	Inactive	PI3K	CORUM
+PIK3R1	PIK3CA	SIGNOR	1.5	#33a02c	Inactive	PI3K	SIGNOR
+PIK3CA	IRS2	SIGNOR	1.5	#33a02c	Inactive	PI3K	SIGNOR
+PIK3CA	PIK3R3	SIGNOR	1.5	#33a02c	Inactive	PI3K	SIGNOR
+BRAFV600E	IRS2	AP-MS	1.5	skyblue	Active	PI3K	AP-MS
+MEK1DD	IRS2	AP-MS	1.5	skyblue	Active	PI3K	AP-MS
+ERK1DD	IRS2	shared	1.5	grey80	Active	PI3K	both
+RAF1S259F	IRS2	AP-MS	1.5	skyblue	Active	PI3K	AP-MS
+NRASQ61R	IRS2	core	1.5	grey80	Active	PI3K	both
+ARAFS214P	IRS4	shared	1.5	grey80	Active	PI3K	both
+RAF1S259F	IRS4	AP-MS	1.5	skyblue	Active	PI3K	AP-MS
+RAF1S257L	IRS4	shared	1.5	grey80	Active	PI3K	both
+NRASQ61K	PIK3CA	core	1.5	grey80	Active	PI3K	both
+NRASQ61R	PIK3CA	core	1.5	grey80	Active	PI3K	both
+RAF1S259F	PIK3CA	shared	1.5	grey80	Active	PI3K	both
+BRAFV600E	PIK3CA	shared	1.5	grey80	Active	PI3K	both
+HRASG13R	PIK3CA	core	1.5	grey80	Active	PI3K	both
+ARAFS214P	PIK3CA	shared	1.5	grey80	Active	PI3K	both
+KRASG12D	PIK3CA	core	1.5	grey80	Active	PI3K	both
+HRASQ61R	PIK3CA	core	1.5	grey80	Active	PI3K	both
+RAF1S257L	PIK3CA	shared	1.5	grey80	Active	PI3K	both
+KRASG12V	PIK3CA	core	1.5	grey80	Active	PI3K	both
+HRASG13R	PIK3CD	shared	1.5	grey80	Active	PI3K	both
+KRASG12V	PIK3CD	shared	1.5	grey80	Active	PI3K	both
+KRASG12D	PIK3CD	shared	1.5	grey80	Active	PI3K	both
+NRASQ61R	PIK3CD	core	1.5	grey80	Active	PI3K	both
+HRASQ61R	PIK3CD	shared	1.5	grey80	Active	PI3K	both
+ARAFS214P	PIK3R1	shared	1.5	grey80	Active	PI3K	both
+NRASQ61R	PIK3R1	core	1.5	grey80	Active	PI3K	both
+HRASG13R	PIK3R1	core	1.5	grey80	Active	PI3K	both
+RAF1S257L	PIK3R1	shared	1.5	grey80	Active	PI3K	both
+KRASG12D	PIK3R1	shared	1.5	grey80	Active	PI3K	both
+HRASQ61R	PIK3R1	core	1.5	grey80	Active	PI3K	both
+RAF1S259F	PIK3R1	shared	1.5	grey80	Active	PI3K	both
+KRASG12V	PIK3R1	shared	1.5	grey80	Active	PI3K	both
+NRASQ61R	PIK3R2	core	1.5	grey80	Active	PI3K	both
+KRASG12D	PIK3R2	shared	1.5	grey80	Active	PI3K	both
+KRASG12V	PIK3R2	shared	1.5	grey80	Active	PI3K	both
+RAF1S257L	PIK3R2	shared	1.5	grey80	Active	PI3K	both
+ARAFS214P	PIK3R3	shared	1.5	grey80	Active	PI3K	both
+HRASQ61R	PIK3R3	shared	1.5	grey80	Active	PI3K	both
+NRASQ61R	PIK3R3	TbID	1.5	pink	Active	PI3K	TbID
+RAF1S257L	PIK3R3	core	1.5	grey80	Active	PI3K	both
+RAF1S259F	PIK3R3	core	1.5	grey80	Active	PI3K	both
+PIK3R1	PIK3CA	CORUM	1.5	black	Active	PI3K	CORUM
+PIK3R1	PIK3CD	CORUM	1.5	black	Active	PI3K	CORUM
+PIK3CA	PIK3R2	CORUM	1.5	black	Active	PI3K	CORUM
+PIK3CD	PIK3R2	CORUM	1.5	black	Active	PI3K	CORUM
+PIK3R1	PIK3CA	SIGNOR	1.5	#33a02c	Active	PI3K	SIGNOR
+PIK3R1	PIK3CD	SIGNOR	1.5	#33a02c	Active	PI3K	SIGNOR
+PIK3CA	IRS2	SIGNOR	1.5	#33a02c	Active	PI3K	SIGNOR
+PIK3CA	PIK3R3	SIGNOR	1.5	#33a02c	Active	PI3K	SIGNOR
+RAF1WT	NISCH	AP-MS	1.5	skyblue	WT	PI3K	AP-MS
+ARAFWT	NISCH	AP-MS	1.5	skyblue	WT	PI3K	AP-MS
+ARAFD447A	NISCH	AP-MS	1.5	skyblue	Inactive	PI3K	AP-MS
+RAF1D486A	NISCH	AP-MS	1.5	skyblue	Inactive	PI3K	AP-MS
+RAF1S259F	NISCH	AP-MS	1.5	skyblue	Active	PI3K	AP-MS
+ARAFS214P	NISCH	shared	1.5	grey80	Active	PI3K	both
+RAF1S257L	NISCH	AP-MS	1.5	skyblue	Active	PI3K	AP-MS
+ARAFWT	AKAP11	AP-MS	1.5	skyblue	WT	PKC	AP-MS
+ARAFWT	PRKACA	AP-MS	1.5	skyblue	WT	PKC	AP-MS
+ARAFWT	PRKACB	shared	1.5	grey80	WT	PKC	both
+ARAFWT	PRKAR1A	AP-MS	1.5	skyblue	WT	PKC	AP-MS
+ARAFWT	PRKAR1B	shared	1.5	grey80	WT	PKC	both
+PRKACA	PRKAR1B	SIGNOR	1.5	#33a02c	WT	PKC	SIGNOR
+PRKACA	PRKAR1A	SIGNOR	1.5	#33a02c	WT	PKC	SIGNOR
+PRKACB	PRKAR1B	SIGNOR	1.5	#33a02c	WT	PKC	SIGNOR
+PRKACB	PRKAR1A	SIGNOR	1.5	#33a02c	WT	PKC	SIGNOR
+ARAFD447A	PRKAR1A	shared	1.5	grey80	Inactive	PKC	both
+ARAFD447A	PRKAR1B	shared	1.5	grey80	Inactive	PKC	both
+MEK1AA	PRKAR1B	TbID	1.5	pink	Inactive	PKC	TbID
+RAF1D486A	ZNF749	shared	1.5	grey80	Inactive	PKC	both
+RAF1S259F	AKAP11	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+ARAFS214P	AKAP11	shared	1.5	grey80	Active	PKC	both
+RAF1S257L	AKAP11	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+ARAFS214P	KLHL28	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+RAF1S259F	KLHL28	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+RAF1S257L	PRKACA	shared	1.5	grey80	Active	PKC	both
+ARAFS214P	PRKACA	shared	1.5	grey80	Active	PKC	both
+RAF1S259F	PRKACA	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+RAF1S259F	PRKACB	shared	1.5	grey80	Active	PKC	both
+RAF1S257L	PRKACB	shared	1.5	grey80	Active	PKC	both
+ARAFS214P	PRKACB	shared	1.5	grey80	Active	PKC	both
+RAF1S259F	PRKAR1A	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+HRASG13R	PRKAR1A	TbID	1.5	pink	Active	PKC	TbID
+RAF1S257L	PRKAR1A	shared	1.5	grey80	Active	PKC	both
+ARAFS214P	PRKAR1A	shared	1.5	grey80	Active	PKC	both
+MEK2DD	PRKAR1B	TbID	1.5	pink	Active	PKC	TbID
+ARAFS214P	PRKAR1B	shared	1.5	grey80	Active	PKC	both
+RAF1S259F	PRKAR1B	shared	1.5	grey80	Active	PKC	both
+RAF1S257L	PRKAR1B	shared	1.5	grey80	Active	PKC	both
+HRASG13R	PRKAR1B	TbID	1.5	pink	Active	PKC	TbID
+ARAFS214P	ZNF749	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+PRKACA	PRKAR1B	SIGNOR	1.5	#33a02c	Active	PKC	SIGNOR
+PRKACA	PRKAR1A	SIGNOR	1.5	#33a02c	Active	PKC	SIGNOR
+PRKACB	PRKAR1B	SIGNOR	1.5	#33a02c	Active	PKC	SIGNOR
+PRKACB	PRKAR1A	SIGNOR	1.5	#33a02c	Active	PKC	SIGNOR
+ARAFWT	CDK5RAP2	AP-MS	1.5	skyblue	WT	PKC	AP-MS
+PRKACA	CDK5RAP2	CORUM	1.5	black	WT	PKC	CORUM
+RAF1S257L	CDK5RAP2	shared	1.5	grey80	Active	PKC	both
+RAF1S259F	CDK5RAP2	AP-MS	1.5	skyblue	Active	PKC	AP-MS
+PRKACA	CDK5RAP2	CORUM	1.5	black	Active	PKC	CORUM
+ERK2WT	DUSP16	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	DUSP9	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	DUSP9	core	1.5	grey80	WT	ERK signaling	both
+ARAFWT	DUSP9	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+ERK1WT	MKNK1	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	MKNK1	core	1.5	grey80	WT	ERK signaling	both
+MEK1WT	MKNK2	TbID	1.5	pink	WT	ERK signaling	TbID
+ERK2WT	MKNK2	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	MKNK2	core	1.5	grey80	WT	ERK signaling	both
+MEK2WT	MKNK2	TbID	1.5	pink	WT	ERK signaling	TbID
+ERK2WT	RHBDF1	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+ERK2AA	DUSP16	TbID	1.5	pink	Inactive	ERK signaling	TbID
+HRASS17N	DUSP9	shared	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	DUSP9	core	1.5	grey80	Inactive	ERK signaling	both
+ERK1AA	DUSP9	core	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	MKNK1	shared	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	MKNK2	core	1.5	grey80	Inactive	ERK signaling	both
+MEK2AA	MKNK2	TbID	1.5	pink	Inactive	ERK signaling	TbID
+ERK1AA	MKNK2	core	1.5	grey80	Inactive	ERK signaling	both
+NRASQ61R	DUSP9	shared	1.5	grey80	Active	ERK signaling	both
+ERK2DD	DUSP9	core	1.5	grey80	Active	ERK signaling	both
+ERK1DD	DUSP9	core	1.5	grey80	Active	ERK signaling	both
+ERK1DD	MKNK1	shared	1.5	grey80	Active	ERK signaling	both
+ERK1DD	MKNK2	core	1.5	grey80	Active	ERK signaling	both
+ERK2DD	MKNK2	shared	1.5	grey80	Active	ERK signaling	both
+ERK1WT	DUSP7	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	DUSP7	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	RPS6KA4	shared	1.5	grey80	WT	ERK signaling	both
+ARAFWT	RPS6KA4	shared	1.5	grey80	WT	ERK signaling	both
+ERK2WT	RPS6KA4	shared	1.5	grey80	WT	ERK signaling	both
+ERK2AA	DUSP7	core	1.5	grey80	Inactive	ERK signaling	both
+ERK1AA	DUSP7	core	1.5	grey80	Inactive	ERK signaling	both
+ARAFD447A	RPS6KA4	shared	1.5	grey80	Inactive	ERK signaling	both
+ERK1DD	DUSP7	core	1.5	grey80	Active	ERK signaling	both
+ERK2DD	DUSP7	core	1.5	grey80	Active	ERK signaling	both
+ARAFS214P	RPS6KA4	shared	1.5	grey80	Active	ERK signaling	both
+ERK1DD	RPS6KA4	shared	1.5	grey80	Active	ERK signaling	both
+ERK1WT	MAPK4	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+ARAFWT	MAPK4	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+ERK1WT	RPS6KA5	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	RPS6KA5	core	1.5	grey80	WT	ERK signaling	both
+ERK1AA	RPS6KA5	core	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	RPS6KA5	core	1.5	grey80	Inactive	ERK signaling	both
+RAF1S259F	MAPK4	AP-MS	1.5	skyblue	Active	ERK signaling	AP-MS
+ERK1DD	RPS6KA5	core	1.5	grey80	Active	ERK signaling	both
+ERK2DD	RPS6KA5	shared	1.5	grey80	Active	ERK signaling	both
+ERK2WT	DHPS	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+ERK1WT	DHPS	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+MEK2WT	MAPK1	AP-MS	1.5	skyblue	WT	ERK signaling	AP-MS
+ERK1WT	MAPK1	shared	1.5	grey80	WT	ERK signaling	both
+ERK2WT	MAPK1	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	MAPK3	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	RPS6KA1	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	RPS6KA1	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	RPS6KA2	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	RPS6KA2	core	1.5	grey80	WT	ERK signaling	both
+ERK1WT	RPS6KA3	core	1.5	grey80	WT	ERK signaling	both
+ERK2WT	RPS6KA3	core	1.5	grey80	WT	ERK signaling	both
+MAPK3	MAPK1	CORUM	1.5	black	WT	ERK signaling	CORUM
+MAPK1	RPS6KA3	SIGNOR	1.5	#33a02c	WT	ERK signaling	SIGNOR
+MAPK1	RPS6KA1	SIGNOR	1.5	#33a02c	WT	ERK signaling	SIGNOR
+MAPK1	RPS6KA2	SIGNOR	1.5	#33a02c	WT	ERK signaling	SIGNOR
+MAPK3	RPS6KA3	SIGNOR	1.5	#33a02c	WT	ERK signaling	SIGNOR
+MAPK3	RPS6KA1	SIGNOR	1.5	#33a02c	WT	ERK signaling	SIGNOR
+MAPK3	RPS6KA2	SIGNOR	1.5	#33a02c	WT	ERK signaling	SIGNOR
+ERK2AA	MAPK1	core	1.5	grey80	Inactive	ERK signaling	both
+ERK1AA	MAPK1	shared	1.5	grey80	Inactive	ERK signaling	both
+MEK2AA	MAPK1	AP-MS	1.5	skyblue	Inactive	ERK signaling	AP-MS
+ERK1AA	MAPK3	core	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	RPS6KA1	core	1.5	grey80	Inactive	ERK signaling	both
+ERK1AA	RPS6KA1	core	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	RPS6KA2	core	1.5	grey80	Inactive	ERK signaling	both
+ERK1AA	RPS6KA2	core	1.5	grey80	Inactive	ERK signaling	both
+ERK1AA	RPS6KA3	core	1.5	grey80	Inactive	ERK signaling	both
+ERK2AA	RPS6KA3	core	1.5	grey80	Inactive	ERK signaling	both
+MAPK3	MAPK1	CORUM	1.5	black	Inactive	ERK signaling	CORUM
+MAPK1	RPS6KA3	SIGNOR	1.5	#33a02c	Inactive	ERK signaling	SIGNOR
+MAPK1	RPS6KA1	SIGNOR	1.5	#33a02c	Inactive	ERK signaling	SIGNOR
+MAPK1	RPS6KA2	SIGNOR	1.5	#33a02c	Inactive	ERK signaling	SIGNOR
+MAPK3	RPS6KA3	SIGNOR	1.5	#33a02c	Inactive	ERK signaling	SIGNOR
+MAPK3	RPS6KA1	SIGNOR	1.5	#33a02c	Inactive	ERK signaling	SIGNOR
+MAPK3	RPS6KA2	SIGNOR	1.5	#33a02c	Inactive	ERK signaling	SIGNOR
+ERK1DD	MAPK1	shared	1.5	grey80	Active	ERK signaling	both
+ERK2DD	MAPK1	core	1.5	grey80	Active	ERK signaling	both
+HRASQ61R	MAPK1	AP-MS	1.5	skyblue	Active	ERK signaling	AP-MS
+ERK1DD	MAPK3	core	1.5	grey80	Active	ERK signaling	both
+ERK1DD	RPS6KA1	core	1.5	grey80	Active	ERK signaling	both
+ERK2DD	RPS6KA1	shared	1.5	grey80	Active	ERK signaling	both
+ERK1DD	RPS6KA2	core	1.5	grey80	Active	ERK signaling	both
+ERK2DD	RPS6KA2	shared	1.5	grey80	Active	ERK signaling	both
+ERK2DD	RPS6KA3	core	1.5	grey80	Active	ERK signaling	both
+ERK1DD	RPS6KA3	core	1.5	grey80	Active	ERK signaling	both
+MAPK3	MAPK1	CORUM	1.5	black	Active	ERK signaling	CORUM
+MAPK1	RPS6KA3	SIGNOR	1.5	#33a02c	Active	ERK signaling	SIGNOR
+MAPK1	RPS6KA1	SIGNOR	1.5	#33a02c	Active	ERK signaling	SIGNOR
+MAPK1	RPS6KA2	SIGNOR	1.5	#33a02c	Active	ERK signaling	SIGNOR
+MAPK3	RPS6KA3	SIGNOR	1.5	#33a02c	Active	ERK signaling	SIGNOR
+MAPK3	RPS6KA1	SIGNOR	1.5	#33a02c	Active	ERK signaling	SIGNOR
+MAPK3	RPS6KA2	SIGNOR	1.5	#33a02c	Active	ERK signaling	SIGNOR
+ERK1WT	ATXN7	TbID	1.5	pink	WT	SAGA complex	TbID
+ERK2WT	ATXN7L1	TbID	1.5	pink	WT	SAGA complex	TbID
+ERK1WT	ATXN7L2	TbID	1.5	pink	WT	SAGA complex	TbID
+ERK1WT	ATXN7L3	TbID	1.5	pink	WT	SAGA complex	TbID
+ERK1WT	SUPT20H	TbID	1.5	pink	WT	SAGA complex	TbID
+ERK2WT	SUPT20H	shared	1.5	grey80	WT	SAGA complex	both
+ERK1WT	SUPT3H	TbID	1.5	pink	WT	SAGA complex	TbID
+ERK1WT	SUPT7L	shared	1.5	grey80	WT	SAGA complex	both
+ERK1WT	TADA1	shared	1.5	grey80	WT	SAGA complex	both
+ERK1WT	TAF5L	TbID	1.5	pink	WT	SAGA complex	TbID
+SUPT3H	TAF5L	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	ATXN7	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	SUPT7L	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	TADA1	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	ATXN7L3	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	ATXN7L1	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	ATXN7L2	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT3H	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	ATXN7	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	SUPT7L	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	TADA1	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	ATXN7L3	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	ATXN7L1	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	ATXN7L2	CORUM	1.5	black	WT	SAGA complex	CORUM
+TAF5L	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7	SUPT7L	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7	TADA1	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7	ATXN7L3	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT7L	TADA1	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT7L	ATXN7L3	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT7L	ATXN7L1	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT7L	ATXN7L2	CORUM	1.5	black	WT	SAGA complex	CORUM
+SUPT7L	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+TADA1	ATXN7L3	CORUM	1.5	black	WT	SAGA complex	CORUM
+TADA1	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7L3	ATXN7L1	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7L3	ATXN7L2	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7L3	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7L1	ATXN7L2	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7L1	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+ATXN7L2	SUPT20H	CORUM	1.5	black	WT	SAGA complex	CORUM
+NRASS17N	ATXN7L1	TbID	1.5	pink	Inactive	SAGA complex	TbID
+ARAFD447A	ATXN7L1	TbID	1.5	pink	Inactive	SAGA complex	TbID
+ERK1AA	ATXN7L2	core	1.5	grey80	Inactive	SAGA complex	both
+NRASS17N	ATXN7L3	TbID	1.5	pink	Inactive	SAGA complex	TbID
+ERK1AA	SUPT20H	shared	1.5	grey80	Inactive	SAGA complex	both
+ERK2AA	SUPT20H	shared	1.5	grey80	Inactive	SAGA complex	both
+ATXN7L3	ATXN7L1	CORUM	1.5	black	Inactive	SAGA complex	CORUM
+ATXN7L3	ATXN7L2	CORUM	1.5	black	Inactive	SAGA complex	CORUM
+ATXN7L3	SUPT20H	CORUM	1.5	black	Inactive	SAGA complex	CORUM
+ATXN7L1	ATXN7L2	CORUM	1.5	black	Inactive	SAGA complex	CORUM
+ATXN7L1	SUPT20H	CORUM	1.5	black	Inactive	SAGA complex	CORUM
+ATXN7L2	SUPT20H	CORUM	1.5	black	Inactive	SAGA complex	CORUM
+ERK1DD	ATXN7	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	ATXN7L1	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK2DD	ATXN7L1	TbID	1.5	pink	Active	SAGA complex	TbID
+NRASQ61R	ATXN7L2	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	ATXN7L2	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	ATXN7L3	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	SUPT20H	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK2DD	SUPT20H	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	SUPT3H	shared	1.5	grey80	Active	SAGA complex	both
+ERK1DD	SUPT7L	shared	1.5	grey80	Active	SAGA complex	both
+ERK1DD	TADA1	shared	1.5	grey80	Active	SAGA complex	both
+ERK1DD	TADA2B	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	TAF5L	TbID	1.5	pink	Active	SAGA complex	TbID
+ERK1DD	TAF9B	shared	1.5	grey80	Active	SAGA complex	both
+SUPT3H	TAF5L	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	ATXN7	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	SUPT7L	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	TADA1	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	ATXN7L3	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	TADA2B	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	TAF9B	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	ATXN7L1	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT3H	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	ATXN7	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	SUPT7L	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	TADA1	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	ATXN7L3	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	TADA2B	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	TAF9B	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	ATXN7L1	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF5L	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7	SUPT7L	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7	TADA1	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7	ATXN7L3	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7	TADA2B	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7	TAF9B	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	TADA1	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	ATXN7L3	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	TADA2B	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	TAF9B	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	ATXN7L1	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+SUPT7L	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA1	ATXN7L3	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA1	TADA2B	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA1	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L3	TADA2B	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L3	TAF9B	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L3	ATXN7L1	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L3	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L3	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA2B	TAF9B	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA2B	ATXN7L1	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA2B	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+TADA2B	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF9B	ATXN7L1	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF9B	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+TAF9B	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L1	ATXN7L2	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L1	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+ATXN7L2	SUPT20H	CORUM	1.5	black	Active	SAGA complex	CORUM
+MEK1WT	ARAF	shared	1.5	grey80	WT	RAF signaling	both
+ARAFWT	ARAF	core	1.5	grey80	WT	RAF signaling	both
+MEK2WT	ARAF	core	1.5	grey80	WT	RAF signaling	both
+NRASWT	ARAF	shared	1.5	grey80	WT	RAF signaling	both
+BRAFWT	BRAF	core	1.5	grey80	WT	RAF signaling	both
+NRASWT	BRAF	shared	1.5	grey80	WT	RAF signaling	both
+KRASWT	BRAF	core	1.5	grey80	WT	RAF signaling	both
+MEK2WT	BRAF	core	1.5	grey80	WT	RAF signaling	both
+HRASWT	BRAF	TbID	1.5	pink	WT	RAF signaling	TbID
+NRASWT	KRAS	TbID	1.5	pink	WT	RAF signaling	TbID
+BRAFWT	KRAS	TbID	1.5	pink	WT	RAF signaling	TbID
+ARAFWT	KRAS	shared	1.5	grey80	WT	RAF signaling	both
+KRASWT	KRAS	core	1.5	grey80	WT	RAF signaling	both
+HRASWT	KRAS	core	1.5	grey80	WT	RAF signaling	both
+RAF1WT	KRAS	shared	1.5	grey80	WT	RAF signaling	both
+MEK2WT	KSR1	core	1.5	grey80	WT	RAF signaling	both
+MEK1WT	KSR1	shared	1.5	grey80	WT	RAF signaling	both
+BRAF	KSR1	CORUM	1.5	black	WT	RAF signaling	CORUM
+BRAF	KRAS	SIGNOR	1.5	#33a02c	WT	RAF signaling	SIGNOR
+ARAF	KSR1	SIGNOR	1.5	#33a02c	WT	RAF signaling	SIGNOR
+BRAF	KSR1	SIGNOR	1.5	#33a02c	WT	RAF signaling	SIGNOR
+MEK2AA	ARAF	core	1.5	grey80	Inactive	RAF signaling	both
+BRAFD594N	ARAF	shared	1.5	grey80	Inactive	RAF signaling	both
+ARAFD447A	ARAF	core	1.5	grey80	Inactive	RAF signaling	both
+MEK2AA	BRAF	core	1.5	grey80	Inactive	RAF signaling	both
+BRAFD594N	BRAF	core	1.5	grey80	Inactive	RAF signaling	both
+BRAFD594N	KRAS	shared	1.5	grey80	Inactive	RAF signaling	both
+KRASS17N	KRAS	core	1.5	grey80	Inactive	RAF signaling	both
+HRASS17N	KRAS	TbID	1.5	pink	Inactive	RAF signaling	TbID
+BRAFD594N	KSR1	shared	1.5	grey80	Inactive	RAF signaling	both
+MEK2AA	KSR1	shared	1.5	grey80	Inactive	RAF signaling	both
+BRAF	KSR1	CORUM	1.5	black	Inactive	RAF signaling	CORUM
+BRAF	KRAS	SIGNOR	1.5	#33a02c	Inactive	RAF signaling	SIGNOR
+ARAF	KSR1	SIGNOR	1.5	#33a02c	Inactive	RAF signaling	SIGNOR
+BRAF	KSR1	SIGNOR	1.5	#33a02c	Inactive	RAF signaling	SIGNOR
+NRASQ61K	ARAF	shared	1.5	grey80	Active	RAF signaling	both
+ARAFS214P	ARAF	core	1.5	grey80	Active	RAF signaling	both
+BRAFV600E	ARAF	core	1.5	grey80	Active	RAF signaling	both
+NRASQ61R	ARAF	shared	1.5	grey80	Active	RAF signaling	both
+KRASG12D	ARAF	shared	1.5	grey80	Active	RAF signaling	both
+MEK2DD	ARAF	core	1.5	grey80	Active	RAF signaling	both
+HRASQ61R	ARAF	shared	1.5	grey80	Active	RAF signaling	both
+KRASG12V	ARAF	shared	1.5	grey80	Active	RAF signaling	both
+HRASG13R	ARAF	shared	1.5	grey80	Active	RAF signaling	both
+MEK1DD	ARAF	core	1.5	grey80	Active	RAF signaling	both
+MEK2DD	BRAF	core	1.5	grey80	Active	RAF signaling	both
+HRASG13R	BRAF	core	1.5	grey80	Active	RAF signaling	both
+NRASQ61R	BRAF	core	1.5	grey80	Active	RAF signaling	both
+MEK1DD	BRAF	core	1.5	grey80	Active	RAF signaling	both
+BRAFG469A	BRAF	core	1.5	grey80	Active	RAF signaling	both
+NRASQ61K	BRAF	core	1.5	grey80	Active	RAF signaling	both
+KRASG12D	BRAF	core	1.5	grey80	Active	RAF signaling	both
+KRASG12V	BRAF	core	1.5	grey80	Active	RAF signaling	both
+BRAFV600E	BRAF	core	1.5	grey80	Active	RAF signaling	both
+HRASQ61R	BRAF	core	1.5	grey80	Active	RAF signaling	both
+HRASG13R	KRAS	core	1.5	grey80	Active	RAF signaling	both
+KRASG12V	KRAS	core	1.5	grey80	Active	RAF signaling	both
+KRASG12D	KRAS	core	1.5	grey80	Active	RAF signaling	both
+NRASQ61K	KRAS	TbID	1.5	pink	Active	RAF signaling	TbID
+NRASQ61R	KRAS	core	1.5	grey80	Active	RAF signaling	both
+RAF1S259F	KRAS	AP-MS	1.5	skyblue	Active	RAF signaling	AP-MS
+HRASQ61R	KRAS	TbID	1.5	pink	Active	RAF signaling	TbID
+MEK2DD	KSR1	shared	1.5	grey80	Active	RAF signaling	both
+MEK1DD	KSR1	shared	1.5	grey80	Active	RAF signaling	both
+BRAF	KSR1	CORUM	1.5	black	Active	RAF signaling	CORUM
+BRAF	KRAS	SIGNOR	1.5	#33a02c	Active	RAF signaling	SIGNOR
+ARAF	KSR1	SIGNOR	1.5	#33a02c	Active	RAF signaling	SIGNOR
+BRAF	KSR1	SIGNOR	1.5	#33a02c	Active	RAF signaling	SIGNOR
+MEK2WT	KSR2	shared	1.5	grey80	WT	RAF signaling	both
+MEK2WT	MAP2K1	shared	1.5	grey80	WT	RAF signaling	both
+RAF1WT	MAP2K1	core	1.5	grey80	WT	RAF signaling	both
+ARAFWT	MAP2K1	core	1.5	grey80	WT	RAF signaling	both
+MEK1WT	MAP2K1	core	1.5	grey80	WT	RAF signaling	both
+BRAFWT	MAP2K1	core	1.5	grey80	WT	RAF signaling	both
+MAP2K1	KSR1	CORUM	1.5	black	WT	RAF signaling	CORUM
+MAP2K1	KSR2	CORUM	1.5	black	WT	RAF signaling	CORUM
+MEK2AA	KSR2	core	1.5	grey80	Inactive	RAF signaling	both
+BRAFD594N	KSR2	TbID	1.5	pink	Inactive	RAF signaling	TbID
+MEK1AA	MAP2K1	core	1.5	grey80	Inactive	RAF signaling	both
+MEK2AA	MAP2K1	shared	1.5	grey80	Inactive	RAF signaling	both
+BRAFD594N	MAP2K1	core	1.5	grey80	Inactive	RAF signaling	both
+ARAFD447A	MAP2K1	TbID	1.5	pink	Inactive	RAF signaling	TbID
+MAP2K1	KSR1	CORUM	1.5	black	Inactive	RAF signaling	CORUM
+MAP2K1	KSR2	CORUM	1.5	black	Inactive	RAF signaling	CORUM
+BRAFV600E	KSR2	TbID	1.5	pink	Active	RAF signaling	TbID
+MEK2DD	KSR2	shared	1.5	grey80	Active	RAF signaling	both
+RAF1S257L	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+ARAFS214P	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+MEK1DD	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+KRASG12V	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+MEK2DD	MAP2K1	shared	1.5	grey80	Active	RAF signaling	both
+BRAFG469A	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+BRAFV600E	MAP2K1	shared	1.5	grey80	Active	RAF signaling	both
+KRASG12D	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+RAF1S259F	MAP2K1	core	1.5	grey80	Active	RAF signaling	both
+MAP2K1	KSR1	CORUM	1.5	black	Active	RAF signaling	CORUM
+MAP2K1	KSR2	CORUM	1.5	black	Active	RAF signaling	CORUM
+ARAFWT	ANKRD28	AP-MS	1.5	skyblue	WT	phosphatases	AP-MS
+MEK2WT	ANKRD52	TbID	1.5	pink	WT	phosphatases	TbID
+ARAFWT	ANKRD52	AP-MS	1.5	skyblue	WT	phosphatases	AP-MS
+MEK1WT	ANKRD52	TbID	1.5	pink	WT	phosphatases	TbID
+ARAFWT	PPP6C	shared	1.5	grey80	WT	phosphatases	both
+ARAFWT	PPP6R1	AP-MS	1.5	skyblue	WT	phosphatases	AP-MS
+ARAFWT	PPP6R2	AP-MS	1.5	skyblue	WT	phosphatases	AP-MS
+ARAFWT	PPP6R3	AP-MS	1.5	skyblue	WT	phosphatases	AP-MS
+PPP6R3	ANKRD28	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R3	PPP6C	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R3	PPP6R1	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R3	PPP6R2	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R3	ANKRD52	CORUM	1.5	black	WT	phosphatases	CORUM
+ANKRD28	PPP6C	CORUM	1.5	black	WT	phosphatases	CORUM
+ANKRD28	PPP6R1	CORUM	1.5	black	WT	phosphatases	CORUM
+ANKRD28	PPP6R2	CORUM	1.5	black	WT	phosphatases	CORUM
+ANKRD28	ANKRD52	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6C	PPP6R1	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6C	PPP6R2	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6C	ANKRD52	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R1	PPP6R2	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R1	ANKRD52	CORUM	1.5	black	WT	phosphatases	CORUM
+PPP6R2	ANKRD52	CORUM	1.5	black	WT	phosphatases	CORUM
+MEK2AA	ANKRD52	TbID	1.5	pink	Inactive	phosphatases	TbID
+ARAFD447A	PPP6C	shared	1.5	grey80	Inactive	phosphatases	both
+ARAFD447A	PPP6R1	AP-MS	1.5	skyblue	Inactive	phosphatases	AP-MS
+ARAFD447A	PPP6R3	AP-MS	1.5	skyblue	Inactive	phosphatases	AP-MS
+PPP6R3	PPP6C	CORUM	1.5	black	Inactive	phosphatases	CORUM
+PPP6R3	PPP6R1	CORUM	1.5	black	Inactive	phosphatases	CORUM
+PPP6R3	ANKRD52	CORUM	1.5	black	Inactive	phosphatases	CORUM
+PPP6C	PPP6R1	CORUM	1.5	black	Inactive	phosphatases	CORUM
+PPP6C	ANKRD52	CORUM	1.5	black	Inactive	phosphatases	CORUM
+PPP6R1	ANKRD52	CORUM	1.5	black	Inactive	phosphatases	CORUM
+ARAFS214P	ANKRD28	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S257L	ANKRD28	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S259F	ANKRD28	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+ARAFS214P	ANKRD52	shared	1.5	grey80	Active	phosphatases	both
+RAF1S257L	ANKRD52	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S257L	PPP6C	shared	1.5	grey80	Active	phosphatases	both
+RAF1S259F	PPP6C	shared	1.5	grey80	Active	phosphatases	both
+ARAFS214P	PPP6C	shared	1.5	grey80	Active	phosphatases	both
+MEK2DD	PPP6R1	core	1.5	grey80	Active	phosphatases	both
+ARAFS214P	PPP6R1	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S259F	PPP6R1	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S257L	PPP6R1	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S257L	PPP6R2	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S257L	PPP6R3	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+RAF1S259F	PPP6R3	AP-MS	1.5	skyblue	Active	phosphatases	AP-MS
+PPP6R3	ANKRD28	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R3	PPP6C	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R3	PPP6R1	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R3	PPP6R2	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R3	ANKRD52	CORUM	1.5	black	Active	phosphatases	CORUM
+ANKRD28	PPP6C	CORUM	1.5	black	Active	phosphatases	CORUM
+ANKRD28	PPP6R1	CORUM	1.5	black	Active	phosphatases	CORUM
+ANKRD28	PPP6R2	CORUM	1.5	black	Active	phosphatases	CORUM
+ANKRD28	ANKRD52	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6C	PPP6R1	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6C	PPP6R2	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6C	ANKRD52	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R1	PPP6R2	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R1	ANKRD52	CORUM	1.5	black	Active	phosphatases	CORUM
+PPP6R2	ANKRD52	CORUM	1.5	black	Active	phosphatases	CORUM
+ERK1WT	ILK	AP-MS	1.5	skyblue	WT	Cell−extracellular matrix interactions	AP-MS
+ERK2WT	ILK	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ERK2WT	LIMS1	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ERK1WT	LIMS1	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ERK1WT	PARVA	AP-MS	1.5	skyblue	WT	Cell−extracellular matrix interactions	AP-MS
+ERK2WT	PARVA	AP-MS	1.5	skyblue	WT	Cell−extracellular matrix interactions	AP-MS
+ERK1WT	PARVB	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ERK2WT	PARVB	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ERK1WT	RSU1	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ERK2WT	RSU1	shared	1.5	grey80	WT	Cell−extracellular matrix interactions	both
+ILK	LIMS1	CORUM	1.5	black	WT	Cell−extracellular matrix interactions	CORUM
+ILK	PARVB	CORUM	1.5	black	WT	Cell−extracellular matrix interactions	CORUM
+ILK	PARVA	CORUM	1.5	black	WT	Cell−extracellular matrix interactions	CORUM
+LIMS1	PARVA	CORUM	1.5	black	WT	Cell−extracellular matrix interactions	CORUM
+ILK	PARVB	SIGNOR	1.5	#33a02c	WT	Cell−extracellular matrix interactions	SIGNOR
+ERK2AA	ILK	shared	1.5	grey80	Inactive	Cell−extracellular matrix interactions	both
+ERK2AA	LIMS1	shared	1.5	grey80	Inactive	Cell−extracellular matrix interactions	both
+ERK2AA	PARVA	shared	1.5	grey80	Inactive	Cell−extracellular matrix interactions	both
+ERK2AA	PARVB	shared	1.5	grey80	Inactive	Cell−extracellular matrix interactions	both
+ERK2AA	RSU1	shared	1.5	grey80	Inactive	Cell−extracellular matrix interactions	both
+ILK	LIMS1	CORUM	1.5	black	Inactive	Cell−extracellular matrix interactions	CORUM
+ILK	PARVB	CORUM	1.5	black	Inactive	Cell−extracellular matrix interactions	CORUM
+ILK	PARVA	CORUM	1.5	black	Inactive	Cell−extracellular matrix interactions	CORUM
+LIMS1	PARVA	CORUM	1.5	black	Inactive	Cell−extracellular matrix interactions	CORUM
+ILK	PARVB	SIGNOR	1.5	#33a02c	Inactive	Cell−extracellular matrix interactions	SIGNOR
+ERK1DD	ILK	shared	1.5	grey80	Active	Cell−extracellular matrix interactions	both
+ERK1DD	LIMS1	shared	1.5	grey80	Active	Cell−extracellular matrix interactions	both
+ERK1DD	PARVA	shared	1.5	grey80	Active	Cell−extracellular matrix interactions	both
+ERK1DD	RSU1	shared	1.5	grey80	Active	Cell−extracellular matrix interactions	both
+ILK	LIMS1	CORUM	1.5	black	Active	Cell−extracellular matrix interactions	CORUM
+ILK	PARVA	CORUM	1.5	black	Active	Cell−extracellular matrix interactions	CORUM
+LIMS1	PARVA	CORUM	1.5	black	Active	Cell−extracellular matrix interactions	CORUM

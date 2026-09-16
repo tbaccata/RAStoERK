@@ -1,0 +1,3097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_signProts" for="node" attr.name="signProts" attr.type="string"/>
+  <key id="v_nTiers" for="node" attr.name="nTiers" attr.type="double"/>
+  <key id="v_tiers" for="node" attr.name="tiers" attr.type="string"/>
+  <key id="v_specific" for="node" attr.name="specific" attr.type="string"/>
+  <key id="v_RAS" for="node" attr.name="RAS" attr.type="double"/>
+  <key id="v_RAF" for="node" attr.name="RAF" attr.type="double"/>
+  <key id="v_MEK" for="node" attr.name="MEK" attr.type="double"/>
+  <key id="v_ERK" for="node" attr.name="ERK" attr.type="double"/>
+  <key id="v_KRAS" for="node" attr.name="KRAS" attr.type="double"/>
+  <key id="v_NRAS" for="node" attr.name="NRAS" attr.type="double"/>
+  <key id="v_HRAS" for="node" attr.name="HRAS" attr.type="double"/>
+  <key id="v_ARAF" for="node" attr.name="ARAF" attr.type="double"/>
+  <key id="v_BRAF" for="node" attr.name="BRAF" attr.type="double"/>
+  <key id="v_RAF1" for="node" attr.name="RAF1" attr.type="double"/>
+  <key id="v_MEK1" for="node" attr.name="MEK1" attr.type="double"/>
+  <key id="v_MEK2" for="node" attr.name="MEK2" attr.type="double"/>
+  <key id="v_ERK1" for="node" attr.name="ERK1" attr.type="double"/>
+  <key id="v_ERK2" for="node" attr.name="ERK2" attr.type="double"/>
+  <key id="v_method" for="node" attr.name="method" attr.type="string"/>
+  <key id="v_pie1" for="node" attr.name="pie1" attr.type="double"/>
+  <key id="v_pie2" for="node" attr.name="pie2" attr.type="double"/>
+  <key id="v_pie3" for="node" attr.name="pie3" attr.type="double"/>
+  <key id="v_pie4" for="node" attr.name="pie4" attr.type="double"/>
+  <key id="v_pie5" for="node" attr.name="pie5" attr.type="double"/>
+  <key id="v_pie6" for="node" attr.name="pie6" attr.type="double"/>
+  <key id="v_pie7" for="node" attr.name="pie7" attr.type="double"/>
+  <key id="v_pie8" for="node" attr.name="pie8" attr.type="double"/>
+  <key id="v_pie9" for="node" attr.name="pie9" attr.type="double"/>
+  <key id="v_pie10" for="node" attr.name="pie10" attr.type="double"/>
+  <key id="v_Role in Cancer" for="node" attr.name="Role in Cancer" attr.type="string"/>
+  <key id="e_score" for="edge" attr.name="score" attr.type="double"/>
+  <key id="e_physical" for="edge" attr.name="physical" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">GNA11</data>
+      <data key="v_signProts">HRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">HRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">100</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">MAPK1</data>
+      <data key="v_signProts">HRAS_ERK1_ERK2</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">1</data>
+      <data key="v_ERK2">1</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">33.3333333333333</data>
+      <data key="v_pie10">33.3333333333333</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">MYH9</data>
+      <data key="v_signProts">HRAS_BRAF</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">KRAS</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_RAF1</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">25</data>
+      <data key="v_pie2">25</data>
+      <data key="v_pie3">25</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">RRAS2</data>
+      <data key="v_signProts">KRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">KRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">100</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">APC</data>
+      <data key="v_signProts">ARAF</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">ARAF</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">100</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">MDM2</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">MAP2K2</data>
+      <data key="v_signProts">ARAF_RAF1_MEK2_ERK1_ERK2</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAF_MEK_ERK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">1</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">1</data>
+      <data key="v_ERK2">1</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">20</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">20</data>
+      <data key="v_pie9">20</data>
+      <data key="v_pie10">20</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">PIK3CA</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF_BRAF_RAF1</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">16.6666666666667</data>
+      <data key="v_pie2">16.6666666666667</data>
+      <data key="v_pie3">16.6666666666667</data>
+      <data key="v_pie4">16.6666666666667</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">CBL</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG, fusion</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">YWHAE</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">8</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">12.5</data>
+      <data key="v_pie2">12.5</data>
+      <data key="v_pie3">12.5</data>
+      <data key="v_pie4">12.5</data>
+      <data key="v_pie5">12.5</data>
+      <data key="v_pie6">12.5</data>
+      <data key="v_pie7">12.5</data>
+      <data key="v_pie8">12.5</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">PATZ1</data>
+      <data key="v_signProts">NRAS_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">50</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">RB1</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">TP53</data>
+      <data key="v_signProts">KRAS_HRAS</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">50</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG, fusion</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">RASA1</data>
+      <data key="v_signProts">NRAS_HRAS</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">50</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">ATM</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">BUB1B</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">RUNX1</data>
+      <data key="v_signProts">BRAF_MEK2</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">50</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG, fusion</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">MAP2K1</data>
+      <data key="v_signProts">KRAS_ARAF_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">16.6666666666667</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">16.6666666666667</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">16.6666666666667</data>
+      <data key="v_pie8">16.6666666666667</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">PRKACA</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">ETV4</data>
+      <data key="v_signProts">ARAF_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">20</data>
+      <data key="v_pie5">20</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">20</data>
+      <data key="v_pie8">20</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">RAP1GDS1</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">33.3333333333333</data>
+      <data key="v_pie2">33.3333333333333</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">NF2</data>
+      <data key="v_signProts">ARAF</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">ARAF</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">100</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">CASP8</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">AFDN</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">33.3333333333333</data>
+      <data key="v_pie2">33.3333333333333</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">NRAS</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">33.3333333333333</data>
+      <data key="v_pie2">33.3333333333333</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">JUN</data>
+      <data key="v_signProts">BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">25</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">25</data>
+      <data key="v_pie8">25</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">IRS4</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">KLF4</data>
+      <data key="v_signProts">MEK1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">100</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">AMER1</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">SPOP</data>
+      <data key="v_signProts">BRAF_RAF1_MEK2</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">33.3333333333333</data>
+      <data key="v_pie6">33.3333333333333</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">33.3333333333333</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">KEAP1</data>
+      <data key="v_signProts">ARAF_BRAF_RAF1_MEK1</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">25</data>
+      <data key="v_pie5">25</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">25</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">RAF1</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">7</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">14.2857142857143</data>
+      <data key="v_pie2">14.2857142857143</data>
+      <data key="v_pie3">14.2857142857143</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">14.2857142857143</data>
+      <data key="v_pie6">14.2857142857143</data>
+      <data key="v_pie7">14.2857142857143</data>
+      <data key="v_pie8">14.2857142857143</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">HRAS</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_BRAF_RAF1_MEK1</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">16.6666666666667</data>
+      <data key="v_pie2">16.6666666666667</data>
+      <data key="v_pie3">16.6666666666667</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">16.6666666666667</data>
+      <data key="v_pie7">16.6666666666667</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">WWTR1</data>
+      <data key="v_signProts">HRAS_MEK2</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">50</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">PIK3R1</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_ARAF_RAF1</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">20</data>
+      <data key="v_pie2">20</data>
+      <data key="v_pie3">20</data>
+      <data key="v_pie4">20</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">IL6ST</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">BRAF</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS_BRAF_MEK1_MEK2</data>
+      <data key="v_nTiers">6</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">16.6666666666667</data>
+      <data key="v_pie2">16.6666666666667</data>
+      <data key="v_pie3">16.6666666666667</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">16.6666666666667</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">16.6666666666667</data>
+      <data key="v_pie8">16.6666666666667</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">LZTR1</data>
+      <data key="v_signProts">KRAS_NRAS_HRAS</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">33.3333333333333</data>
+      <data key="v_pie2">33.3333333333333</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">STK11</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">PIM1</data>
+      <data key="v_signProts">MEK1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">100</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">SH3GL1</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">YAP1</data>
+      <data key="v_signProts">HRAS_MEK2</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">50</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">fusion, oncogene</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">MLF1</data>
+      <data key="v_signProts">MEK1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">100</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">TRIM27</data>
+      <data key="v_signProts">RAF1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">RAF1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">100</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">FBXO11</data>
+      <data key="v_signProts">BRAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">UBR5</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">WT1</data>
+      <data key="v_signProts">RAF1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">RAF1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">100</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG, fusion</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">LMO1</data>
+      <data key="v_signProts">NRAS_BRAF</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">50</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">PRKAR1A</data>
+      <data key="v_signProts">HRAS_ARAF_RAF1</data>
+      <data key="v_nTiers">3</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">33.3333333333333</data>
+      <data key="v_pie4">33.3333333333333</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">33.3333333333333</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG, fusion</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">LPP</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">BCL10</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">FAS</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">ACVR1</data>
+      <data key="v_signProts">KRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">KRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">100</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">APOBEC3B</data>
+      <data key="v_signProts">HRAS_BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">5</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">20</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">20</data>
+      <data key="v_pie6">20</data>
+      <data key="v_pie7">20</data>
+      <data key="v_pie8">20</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">CDKN1B</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">CNOT3</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">CRTC1</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">CXCR4</data>
+      <data key="v_signProts">NRAS_BRAF_RAF1_MEK2</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAS_RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">25</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">25</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">25</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">DICER1</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">EXT1</data>
+      <data key="v_signProts">BRAF</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">BRAF</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">100</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">FAT1</data>
+      <data key="v_signProts">ARAF</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">ARAF</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">100</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">FES</data>
+      <data key="v_signProts">ARAF</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">ARAF</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">100</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, TSG</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">HMGA2</data>
+      <data key="v_signProts">KRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">KRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">100</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">HOXD13</data>
+      <data key="v_signProts">HRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">HRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">100</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">LRIG3</data>
+      <data key="v_signProts">RAF1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">RAF1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">100</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">MN1</data>
+      <data key="v_signProts">NRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">NRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">100</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">NAB2</data>
+      <data key="v_signProts">BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">25</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">25</data>
+      <data key="v_pie8">25</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">NCOA4</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">NDRG1</data>
+      <data key="v_signProts">MEK1</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK1</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">100</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">PER1</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG, fusion</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">PPP6C</data>
+      <data key="v_signProts">ARAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">1</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">50</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">PREX2</data>
+      <data key="v_signProts">NRAS_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">1</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">50</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">RNF43</data>
+      <data key="v_signProts">MEK2</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">MEK</data>
+      <data key="v_specific">MEK2</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">100</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">SDHC</data>
+      <data key="v_signProts">BRAF_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">50</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n75">
+      <data key="v_name">SH2B3</data>
+      <data key="v_signProts">BRAF_RAF1_MEK1_MEK2</data>
+      <data key="v_nTiers">4</data>
+      <data key="v_tiers">RAF_MEK</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">0</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">1</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">1</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">1</data>
+      <data key="v_MEK2">1</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">AP-MS</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">25</data>
+      <data key="v_pie6">25</data>
+      <data key="v_pie7">25</data>
+      <data key="v_pie8">25</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n76">
+      <data key="v_name">TLX1</data>
+      <data key="v_signProts">KRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">KRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">1</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">0</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">100</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">0</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene, fusion</data>
+    </node>
+    <node id="n77">
+      <data key="v_name">TRAF7</data>
+      <data key="v_signProts">HRAS</data>
+      <data key="v_nTiers">1</data>
+      <data key="v_tiers">RAS</data>
+      <data key="v_specific">HRAS</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">0</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">0</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">both</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">100</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">0</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">TSG</data>
+    </node>
+    <node id="n78">
+      <data key="v_name">U2AF1</data>
+      <data key="v_signProts">HRAS_RAF1</data>
+      <data key="v_nTiers">2</data>
+      <data key="v_tiers">RAS_RAF</data>
+      <data key="v_specific">shared</data>
+      <data key="v_RAS">1</data>
+      <data key="v_RAF">1</data>
+      <data key="v_MEK">0</data>
+      <data key="v_ERK">0</data>
+      <data key="v_KRAS">0</data>
+      <data key="v_NRAS">0</data>
+      <data key="v_HRAS">1</data>
+      <data key="v_ARAF">0</data>
+      <data key="v_BRAF">0</data>
+      <data key="v_RAF1">1</data>
+      <data key="v_MEK1">0</data>
+      <data key="v_MEK2">0</data>
+      <data key="v_ERK1">0</data>
+      <data key="v_ERK2">0</data>
+      <data key="v_method">TbID</data>
+      <data key="v_pie1">0</data>
+      <data key="v_pie2">0</data>
+      <data key="v_pie3">50</data>
+      <data key="v_pie4">0</data>
+      <data key="v_pie5">0</data>
+      <data key="v_pie6">50</data>
+      <data key="v_pie7">0</data>
+      <data key="v_pie8">0</data>
+      <data key="v_pie9">0</data>
+      <data key="v_pie10">0</data>
+      <data key="v_Role in Cancer">oncogene</data>
+    </node>
+    <edge source="n0" target="n8">
+      <data key="e_score">0.499</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n35">
+      <data key="e_score">0.525</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n0" target="n33">
+      <data key="e_score">0.54</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n36">
+      <data key="e_score">0.429</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n25">
+      <data key="e_score">0.499</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n23">
+      <data key="e_score">0.668</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n33">
+      <data key="e_score">0.733</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n37">
+      <data key="e_score">0.77</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n32">
+      <data key="e_score">0.813</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_score">0.837</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n26">
+      <data key="e_score">0.892</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="e_score">0.893</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n18">
+      <data key="e_score">0.98</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n1" target="n7">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n2" target="n9">
+      <data key="e_score">0.4</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n7">
+      <data key="e_score">0.523</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n35">
+      <data key="e_score">0.528</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n14">
+      <data key="e_score">0.63</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n38">
+      <data key="e_score">0.648</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n21">
+      <data key="e_score">0.676</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n8">
+      <data key="e_score">0.713</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n18">
+      <data key="e_score">0.789</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n37">
+      <data key="e_score">0.833</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n25">
+      <data key="e_score">0.936</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n32">
+      <data key="e_score">0.981</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n3" target="n33">
+      <data key="e_score">0.991</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n4" target="n32">
+      <data key="e_score">0.501</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n5" target="n29">
+      <data key="e_score">0.996</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n35">
+      <data key="e_score">0.422</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n39">
+      <data key="e_score">0.454</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n40">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n26">
+      <data key="e_score">0.542</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n15">
+      <data key="e_score">0.842</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_score">0.904</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n33">
+      <data key="e_score">0.523</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n25">
+      <data key="e_score">0.523</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n32">
+      <data key="e_score">0.842</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n37">
+      <data key="e_score">0.952</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n7" target="n18">
+      <data key="e_score">0.991</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n8" target="n27">
+      <data key="e_score">0.578</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n8" target="n25">
+      <data key="e_score">0.65</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_score">0.729</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n8" target="n33">
+      <data key="e_score">0.731</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n8" target="n35">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n9" target="n26">
+      <data key="e_score">0.43</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n9" target="n36">
+      <data key="e_score">0.499</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n9" target="n41">
+      <data key="e_score">0.855</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n9" target="n35">
+      <data key="e_score">0.865</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="e_score">0.516</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n35">
+      <data key="e_score">0.548</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n32">
+      <data key="e_score">0.574</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n18">
+      <data key="e_score">0.71</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n37">
+      <data key="e_score">0.83</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n42">
+      <data key="e_score">0.943</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n34">
+      <data key="e_score">0.947</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n10" target="n43">
+      <data key="e_score">0.981</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_score">0.549</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n32">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n26">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n44">
+      <data key="e_score">0.548</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n12" target="n13">
+      <data key="e_score">0.691</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n45">
+      <data key="e_score">0.601</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n35">
+      <data key="e_score">0.603</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n28">
+      <data key="e_score">0.62</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n46">
+      <data key="e_score">0.659</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="e_score">0.713</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n39">
+      <data key="e_score">0.716</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n47">
+      <data key="e_score">0.88</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n13" target="n26">
+      <data key="e_score">0.975</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="e_score">0.8</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n14" target="n33">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n15" target="n39">
+      <data key="e_score">0.411</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n15" target="n30">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n16" target="n46">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n17" target="n48">
+      <data key="e_score">0.499</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n17" target="n26">
+      <data key="e_score">0.656</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n17" target="n42">
+      <data key="e_score">0.78</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n18" target="n25">
+      <data key="e_score">0.541</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n18" target="n33">
+      <data key="e_score">0.661</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n18" target="n32">
+      <data key="e_score">0.99</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n18" target="n37">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n19" target="n49">
+      <data key="e_score">0.987</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n20" target="n39">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n20" target="n50">
+      <data key="e_score">0.641</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_score">0.44</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n21" target="n33">
+      <data key="e_score">0.664</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n22" target="n42">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n23" target="n35">
+      <data key="e_score">0.41</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n23" target="n51">
+      <data key="e_score">0.977</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n23" target="n52">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n24" target="n25">
+      <data key="e_score">0.653</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n24" target="n33">
+      <data key="e_score">0.976</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n25" target="n38">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n25" target="n35">
+      <data key="e_score">0.549</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n25" target="n37">
+      <data key="e_score">0.771</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n25" target="n32">
+      <data key="e_score">0.904</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n25" target="n33">
+      <data key="e_score">0.93</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n26" target="n42">
+      <data key="e_score">0.84</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n27" target="n35">
+      <data key="e_score">0.687</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n28" target="n42">
+      <data key="e_score">0.595</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n29" target="n31">
+      <data key="e_score">0.925</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="e_score">0.9</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n30" target="n38">
+      <data key="e_score">0.9</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n31" target="n38">
+      <data key="e_score">0.9</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n32" target="n38">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n32" target="n33">
+      <data key="e_score">0.998</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n32" target="n37">
+      <data key="e_score">0.999</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n33" target="n38">
+      <data key="e_score">0.457</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n33" target="n35">
+      <data key="e_score">0.852</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n33" target="n37">
+      <data key="e_score">0.908</data>
+      <data key="e_physical">yes</data>
+    </edge>
+    <edge source="n34" target="n42">
+      <data key="e_score">0.943</data>
+      <data key="e_physical">yes</data>
+    </edge>
+  </graph>
+</graphml>

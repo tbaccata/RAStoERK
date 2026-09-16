@@ -1,0 +1,14 @@
+set	count	type
+HRAS	80	RAS
+NRAS	41	RAS
+KRAS	25	RAS
+shared	26	RAS
+common	13	RAS
+RAF1	64	RAF
+BRAF	65	RAF
+ARAF	31	RAF
+shared2	155	RAF
+common2	80	RAF
+MEK2	124	MEK
+MEK1	57	MEK
+common3	107	MEK

@@ -1,0 +1,181 @@
+BaitProtein	prey	key	method	known	RoleInCancer
+KRAS	ACVR1	KRAS_ACVR1	TbID	novel	oncogene
+NRAS	AFDN	NRAS_AFDN	both	known	oncogene, fusion
+KRAS	AFDN	KRAS_AFDN	both	known	oncogene, fusion
+HRAS	AFDN	HRAS_AFDN	both	known	oncogene, fusion
+ARAF	AMER1	ARAF_AMER1	AP-MS	novel	TSG
+RAF1	AMER1	RAF1_AMER1	AP-MS	known	TSG
+ARAF	APC	ARAF_APC	AP-MS	novel	TSG
+BRAF	APOBEC3B	BRAF_APOBEC3B	TbID	novel	oncogene, TSG
+RAF1	APOBEC3B	RAF1_APOBEC3B	TbID	novel	oncogene, TSG
+MAP2K1	APOBEC3B	MAP2K1_APOBEC3B	TbID	novel	oncogene, TSG
+HRAS	APOBEC3B	HRAS_APOBEC3B	TbID	novel	oncogene, TSG
+MAP2K2	APOBEC3B	MAP2K2_APOBEC3B	TbID	novel	oncogene, TSG
+NRAS	ATM	NRAS_ATM	AP-MS	novel	TSG
+MAP2K2	BCL10	MAP2K2_BCL10	TbID	novel	TSG, fusion
+MAP2K2	BRAF	MAP2K2_BRAF	both	known	oncogene, fusion
+HRAS	BRAF	HRAS_BRAF	both	known	oncogene, fusion
+NRAS	BRAF	NRAS_BRAF	both	known	oncogene, fusion
+MAP2K1	BRAF	MAP2K1_BRAF	both	known	oncogene, fusion
+BRAF	BRAF	BRAF_BRAF	both	novel	oncogene, fusion
+KRAS	BRAF	KRAS_BRAF	both	known	oncogene, fusion
+MAP2K2	BUB1B	MAP2K2_BUB1B	TbID	novel	TSG
+MAP2K2	CASP8	MAP2K2_CASP8	TbID	novel	TSG
+MAP2K2	CBL	MAP2K2_CBL	TbID	novel	oncogene, TSG, fusion
+NRAS	CDKN1B	NRAS_CDKN1B	TbID	novel	TSG
+MAP2K2	CNOT3	MAP2K2_CNOT3	both	known	TSG
+NRAS	CRTC1	NRAS_CRTC1	AP-MS	novel	oncogene, fusion
+MAP2K2	CXCR4	MAP2K2_CXCR4	both	novel	oncogene
+BRAF	CXCR4	BRAF_CXCR4	both	novel	oncogene
+NRAS	CXCR4	NRAS_CXCR4	both	novel	oncogene
+RAF1	CXCR4	RAF1_CXCR4	both	novel	oncogene
+ARAF	DICER1	ARAF_DICER1	AP-MS	novel	TSG
+RAF1	DICER1	RAF1_DICER1	AP-MS	known	TSG
+BRAF	ETV4	BRAF_ETV4	AP-MS	novel	oncogene, fusion
+RAF1	ETV4	RAF1_ETV4	AP-MS	novel	oncogene, fusion
+MAP2K2	ETV4	MAP2K2_ETV4	AP-MS	novel	oncogene, fusion
+MAP2K1	ETV4	MAP2K1_ETV4	AP-MS	novel	oncogene, fusion
+ARAF	ETV4	ARAF_ETV4	AP-MS	novel	oncogene, fusion
+BRAF	EXT1	BRAF_EXT1	TbID	novel	TSG, fusion
+MAP2K2	FAS	MAP2K2_FAS	AP-MS	novel	TSG
+ARAF	FAT1	ARAF_FAT1	AP-MS	novel	TSG
+BRAF	FBXO11	BRAF_FBXO11	TbID	novel	TSG
+RAF1	FBXO11	RAF1_FBXO11	TbID	novel	TSG
+ARAF	FES	ARAF_FES	AP-MS	novel	oncogene, TSG
+HRAS	GNA11	HRAS_GNA11	TbID	novel	oncogene
+KRAS	HMGA2	KRAS_HMGA2	TbID	novel	oncogene, fusion
+HRAS	HOXD13	HRAS_HOXD13	TbID	novel	oncogene, fusion
+KRAS	HRAS	KRAS_HRAS	both	known	oncogene
+NRAS	HRAS	NRAS_HRAS	both	known	oncogene
+RAF1	HRAS	RAF1_HRAS	both	known	oncogene
+HRAS	HRAS	HRAS_HRAS	both	novel	oncogene
+MAP2K1	HRAS	MAP2K1_HRAS	both	novel	oncogene
+BRAF	HRAS	BRAF_HRAS	both	known	oncogene
+MAP2K2	IL6ST	MAP2K2_IL6ST	AP-MS	novel	oncogene
+ARAF	IRS4	ARAF_IRS4	AP-MS	novel	oncogene, TSG
+RAF1	IRS4	RAF1_IRS4	AP-MS	known	oncogene, TSG
+BRAF	JUN	BRAF_JUN	AP-MS	novel	oncogene
+MAP2K2	JUN	MAP2K2_JUN	AP-MS	novel	oncogene
+RAF1	JUN	RAF1_JUN	AP-MS	novel	oncogene
+MAP2K1	JUN	MAP2K1_JUN	AP-MS	novel	oncogene
+ARAF	KEAP1	ARAF_KEAP1	TbID	novel	TSG
+BRAF	KEAP1	BRAF_KEAP1	TbID	known	TSG
+MAP2K1	KEAP1	MAP2K1_KEAP1	TbID	novel	TSG
+RAF1	KEAP1	RAF1_KEAP1	TbID	known	TSG
+MAP2K1	KLF4	MAP2K1_KLF4	AP-MS	novel	oncogene, TSG
+HRAS	KRAS	HRAS_KRAS	both	known	oncogene
+KRAS	KRAS	KRAS_KRAS	both	novel	oncogene
+NRAS	KRAS	NRAS_KRAS	both	known	oncogene
+RAF1	KRAS	RAF1_KRAS	both	known	oncogene
+NRAS	LMO1	NRAS_LMO1	AP-MS	novel	oncogene, fusion
+BRAF	LMO1	BRAF_LMO1	AP-MS	known	oncogene, fusion
+MAP2K2	LPP	MAP2K2_LPP	TbID	novel	oncogene, fusion
+RAF1	LRIG3	RAF1_LRIG3	AP-MS	novel	TSG, fusion
+HRAS	LZTR1	HRAS_LZTR1	both	known	TSG
+KRAS	LZTR1	KRAS_LZTR1	both	known	TSG
+NRAS	LZTR1	NRAS_LZTR1	both	known	TSG
+RAF1	MAP2K1	RAF1_MAP2K1	both	known	oncogene
+ARAF	MAP2K1	ARAF_MAP2K1	both	known	oncogene
+MAP2K1	MAP2K1	MAP2K1_MAP2K1	both	novel	oncogene
+KRAS	MAP2K1	KRAS_MAP2K1	both	known	oncogene
+MAP2K2	MAP2K1	MAP2K2_MAP2K1	both	known	oncogene
+BRAF	MAP2K1	BRAF_MAP2K1	both	known	oncogene
+RAF1	MAP2K2	RAF1_MAP2K2	both	known	oncogene
+MAPK3	MAP2K2	MAPK3_MAP2K2	both	novel	oncogene
+MAP2K2	MAP2K2	MAP2K2_MAP2K2	both	novel	oncogene
+ARAF	MAP2K2	ARAF_MAP2K2	both	known	oncogene
+MAPK1	MAP2K2	MAPK1_MAP2K2	both	known	oncogene
+MAPK3	MAPK1	MAPK3_MAPK1	both	known	oncogene
+MAPK1	MAPK1	MAPK1_MAPK1	both	novel	oncogene
+HRAS	MAPK1	HRAS_MAPK1	both	novel	oncogene
+RAF1	MDM2	RAF1_MDM2	AP-MS	novel	oncogene
+ARAF	MDM2	ARAF_MDM2	AP-MS	novel	oncogene
+MAP2K1	MLF1	MAP2K1_MLF1	TbID	novel	TSG, fusion
+NRAS	MN1	NRAS_MN1	AP-MS	novel	oncogene, fusion
+BRAF	MYH9	BRAF_MYH9	both	novel	TSG, fusion
+HRAS	MYH9	HRAS_MYH9	both	novel	TSG, fusion
+MAP2K2	NAB2	MAP2K2_NAB2	AP-MS	novel	TSG, fusion
+MAP2K1	NAB2	MAP2K1_NAB2	AP-MS	novel	TSG, fusion
+BRAF	NAB2	BRAF_NAB2	AP-MS	novel	TSG, fusion
+RAF1	NAB2	RAF1_NAB2	AP-MS	novel	TSG, fusion
+MAP2K2	NCOA4	MAP2K2_NCOA4	TbID	novel	TSG, fusion
+MAP2K1	NDRG1	MAP2K1_NDRG1	AP-MS	novel	TSG, fusion
+ARAF	NF2	ARAF_NF2	TbID	novel	TSG
+NRAS	NRAS	NRAS_NRAS	both	novel	oncogene
+KRAS	NRAS	KRAS_NRAS	both	known	oncogene
+HRAS	NRAS	HRAS_NRAS	both	known	oncogene
+RAF1	PATZ1	RAF1_PATZ1	both	novel	TSG, fusion
+NRAS	PATZ1	NRAS_PATZ1	both	novel	TSG, fusion
+RAF1	PER1	RAF1_PER1	AP-MS	novel	TSG, fusion
+ARAF	PER1	ARAF_PER1	AP-MS	novel	TSG, fusion
+NRAS	PIK3CA	NRAS_PIK3CA	both	novel	oncogene
+RAF1	PIK3CA	RAF1_PIK3CA	both	novel	oncogene
+BRAF	PIK3CA	BRAF_PIK3CA	both	novel	oncogene
+HRAS	PIK3CA	HRAS_PIK3CA	both	known	oncogene
+ARAF	PIK3CA	ARAF_PIK3CA	both	novel	oncogene
+KRAS	PIK3CA	KRAS_PIK3CA	both	novel	oncogene
+ARAF	PIK3R1	ARAF_PIK3R1	both	known	TSG
+NRAS	PIK3R1	NRAS_PIK3R1	both	known	TSG
+HRAS	PIK3R1	HRAS_PIK3R1	both	known	TSG
+RAF1	PIK3R1	RAF1_PIK3R1	both	novel	TSG
+KRAS	PIK3R1	KRAS_PIK3R1	both	novel	TSG
+MAP2K1	PIM1	MAP2K1_PIM1	AP-MS	novel	oncogene, fusion
+RAF1	PPP6C	RAF1_PPP6C	AP-MS	novel	TSG
+ARAF	PPP6C	ARAF_PPP6C	AP-MS	known	TSG
+NRAS	PREX2	NRAS_PREX2	TbID	novel	oncogene
+RAF1	PREX2	RAF1_PREX2	TbID	novel	oncogene
+RAF1	PRKACA	RAF1_PRKACA	AP-MS	novel	oncogene
+ARAF	PRKACA	ARAF_PRKACA	AP-MS	novel	oncogene
+RAF1	PRKAR1A	RAF1_PRKAR1A	both	novel	oncogene, TSG, fusion
+HRAS	PRKAR1A	HRAS_PRKAR1A	both	novel	oncogene, TSG, fusion
+ARAF	PRKAR1A	ARAF_PRKAR1A	both	known	oncogene, TSG, fusion
+BRAF	RAF1	BRAF_RAF1	both	known	oncogene, fusion
+MAP2K2	RAF1	MAP2K2_RAF1	both	known	oncogene, fusion
+NRAS	RAF1	NRAS_RAF1	both	known	oncogene, fusion
+KRAS	RAF1	KRAS_RAF1	both	known	oncogene, fusion
+MAP2K1	RAF1	MAP2K1_RAF1	both	known	oncogene, fusion
+RAF1	RAF1	RAF1_RAF1	both	novel	oncogene, fusion
+HRAS	RAF1	HRAS_RAF1	both	known	oncogene, fusion
+HRAS	RAP1GDS1	HRAS_RAP1GDS1	both	known	oncogene, fusion
+KRAS	RAP1GDS1	KRAS_RAP1GDS1	both	known	oncogene, fusion
+NRAS	RAP1GDS1	NRAS_RAP1GDS1	both	known	oncogene, fusion
+HRAS	RASA1	HRAS_RASA1	TbID	known	TSG
+NRAS	RASA1	NRAS_RASA1	TbID	known	TSG
+NRAS	RB1	NRAS_RB1	TbID	novel	TSG
+MAP2K2	RNF43	MAP2K2_RNF43	AP-MS	novel	TSG
+KRAS	RRAS2	KRAS_RRAS2	both	novel	oncogene
+BRAF	RUNX1	BRAF_RUNX1	both	known	oncogene, TSG, fusion
+MAP2K2	RUNX1	MAP2K2_RUNX1	both	novel	oncogene, TSG, fusion
+BRAF	SDHC	BRAF_SDHC	TbID	known	TSG
+RAF1	SDHC	RAF1_SDHC	TbID	novel	TSG
+BRAF	SH2B3	BRAF_SH2B3	AP-MS	novel	TSG
+RAF1	SH2B3	RAF1_SH2B3	AP-MS	novel	TSG
+MAP2K2	SH2B3	MAP2K2_SH2B3	AP-MS	novel	TSG
+MAP2K1	SH2B3	MAP2K1_SH2B3	AP-MS	novel	TSG
+MAP2K2	SH3GL1	MAP2K2_SH3GL1	TbID	novel	oncogene, fusion
+BRAF	SPOP	BRAF_SPOP	TbID	known	TSG
+MAP2K2	SPOP	MAP2K2_SPOP	TbID	novel	TSG
+RAF1	SPOP	RAF1_SPOP	TbID	known	TSG
+MAP2K2	STK11	MAP2K2_STK11	AP-MS	novel	TSG
+KRAS	TLX1	KRAS_TLX1	TbID	novel	oncogene, fusion
+KRAS	TP53	KRAS_TP53	TbID	novel	oncogene, TSG, fusion
+HRAS	TP53	HRAS_TP53	TbID	novel	oncogene, TSG, fusion
+HRAS	TRAF7	HRAS_TRAF7	both	novel	TSG
+RAF1	TRIM27	RAF1_TRIM27	TbID	novel	oncogene, fusion
+HRAS	U2AF1	HRAS_U2AF1	TbID	novel	oncogene
+RAF1	U2AF1	RAF1_U2AF1	TbID	novel	oncogene
+RAF1	UBR5	RAF1_UBR5	AP-MS	novel	oncogene
+ARAF	UBR5	ARAF_UBR5	AP-MS	novel	oncogene
+RAF1	WT1	RAF1_WT1	AP-MS	novel	oncogene, TSG, fusion
+MAP2K2	WWTR1	MAP2K2_WWTR1	TbID	novel	oncogene, fusion
+HRAS	WWTR1	HRAS_WWTR1	TbID	novel	oncogene, fusion
+HRAS	YAP1	HRAS_YAP1	TbID	novel	fusion, oncogene
+MAP2K2	YAP1	MAP2K2_YAP1	TbID	novel	fusion, oncogene
+RAF1	YWHAE	RAF1_YWHAE	both	known	TSG, fusion
+KRAS	YWHAE	KRAS_YWHAE	both	known	TSG, fusion
+MAP2K1	YWHAE	MAP2K1_YWHAE	both	known	TSG, fusion
+MAP2K2	YWHAE	MAP2K2_YWHAE	both	known	TSG, fusion
+ARAF	YWHAE	ARAF_YWHAE	both	known	TSG, fusion
+NRAS	YWHAE	NRAS_YWHAE	both	novel	TSG, fusion
+HRAS	YWHAE	HRAS_YWHAE	both	novel	TSG, fusion
+BRAF	YWHAE	BRAF_YWHAE	both	known	TSG, fusion

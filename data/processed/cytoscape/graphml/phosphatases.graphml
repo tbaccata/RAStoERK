@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="edge" attr.name="interaction" attr.type="string"/>
+<key id="d4" for="node" attr.name="y" attr.type="double"/>
+<key id="d3" for="node" attr.name="x" attr.type="double"/>
+<key id="d2" for="node" attr.name="orig_label" attr.type="string"/>
+<key id="d1" for="node" attr.name="color" attr.type="string"/>
+<key id="d0" for="node" attr.name="bait" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Inactive_RAF1D486A">
+  <data key="d0">yes</data>
+  <data key="d1">#a1bce2</data>
+  <data key="d2">RAF1D486A</data>
+  <data key="d3">-435.0</data>
+  <data key="d4">2.4259524377964933e-06</data>
+</node>
+<node id="Inactive_MEK1AA">
+  <data key="d0">yes</data>
+  <data key="d1">#009147</data>
+  <data key="d2">MEK1AA</data>
+  <data key="d3">-466.512194386052</data>
+  <data key="d4">96.9845671059055</data>
+</node>
+<node id="Inactive_MEK2AA">
+  <data key="d0">yes</data>
+  <data key="d1">#88be40</data>
+  <data key="d2">MEK2AA</data>
+  <data key="d3">-549.0121988116967</data>
+  <data key="d4">156.92433059264985</data>
+</node>
+<node id="Inactive_ERK1AA">
+  <data key="d0">yes</data>
+  <data key="d1">#a62877</data>
+  <data key="d2">ERK1AA</data>
+  <data key="d3">-650.9878090561162</data>
+  <data key="d4">156.92432075788355</data>
+</node>
+<node id="Inactive_ERK2AA">
+  <data key="d0">yes</data>
+  <data key="d1">#dfa0c2</data>
+  <data key="d2">ERK2AA</data>
+  <data key="d3">-733.4878036469947</data>
+  <data key="d4">96.9845671059055</data>
+</node>
+<node id="Inactive_KRASS17N">
+  <data key="d0">yes</data>
+  <data key="d1">#f26924</data>
+  <data key="d2">KRASS17N</data>
+  <data key="d3">-764.9999980330467</data>
+  <data key="d4">-1.1998805610848763e-05</data>
+</node>
+<node id="Inactive_NRASS17N">
+  <data key="d0">yes</data>
+  <data key="d1">#f68b22</data>
+  <data key="d2">NRASS17N</data>
+  <data key="d3">-733.4877938122285</data>
+  <data key="d4">-96.98457208876695</data>
+</node>
+<node id="Inactive_HRASS17N">
+  <data key="d0">yes</data>
+  <data key="d1">#faa61e</data>
+  <data key="d2">HRASS17N</data>
+  <data key="d3">-650.9878238082658</data>
+  <data key="d4">-156.92431590597866</data>
+</node>
+<node id="Inactive_ARAFD447A">
+  <data key="d0">yes</data>
+  <data key="d1">#174a92</data>
+  <data key="d2">ARAFD447A</data>
+  <data key="d3">-549.012174224781</data>
+  <data key="d4">-156.92431590597866</data>
+</node>
+<node id="Inactive_BRAFD594N">
+  <data key="d0">yes</data>
+  <data key="d1">#4f88c7</data>
+  <data key="d2">BRAFD594N</data>
+  <data key="d3">-466.51220422081826</data>
+  <data key="d4">-96.98457208876695</data>
+</node>
+<node id="Inactive_ANKRD52">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">ANKRD52</data>
+  <data key="d3">-547.3113549819453</data>
+  <data key="d4">12.173418184741605</data>
+</node>
+<node id="Inactive_PPP6R3">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R3</data>
+  <data key="d3">-547.3052693158642</data>
+  <data key="d4">-68.49260376677476</data>
+</node>
+<node id="Inactive_PPP6C">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6C</data>
+  <data key="d3">-530.6901279726375</data>
+  <data key="d4">-76.67386011659212</data>
+</node>
+<node id="Inactive_PPP6R1">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R1</data>
+  <data key="d3">-565.7198204303825</data>
+  <data key="d4">-75.73224859347995</data>
+</node>
+<node id="WT_RAF1WT">
+  <data key="d0">yes</data>
+  <data key="d1">#a1bce2</data>
+  <data key="d2">RAF1WT</data>
+  <data key="d3">165.0</data>
+  <data key="d4">2.4259524377964933e-06</data>
+</node>
+<node id="WT_MEK1WT">
+  <data key="d0">yes</data>
+  <data key="d1">#009147</data>
+  <data key="d2">MEK1WT</data>
+  <data key="d3">133.48780561394804</data>
+  <data key="d4">96.9845671059055</data>
+</node>
+<node id="WT_MEK2WT">
+  <data key="d0">yes</data>
+  <data key="d1">#88be40</data>
+  <data key="d2">MEK2WT</data>
+  <data key="d3">50.987801188303216</data>
+  <data key="d4">156.92433059264985</data>
+</node>
+<node id="WT_ERK1WT">
+  <data key="d0">yes</data>
+  <data key="d1">#a62877</data>
+  <data key="d2">ERK1WT</data>
+  <data key="d3">-50.987809056116284</data>
+  <data key="d4">156.92432075788355</data>
+</node>
+<node id="WT_ERK2WT">
+  <data key="d0">yes</data>
+  <data key="d1">#dfa0c2</data>
+  <data key="d2">ERK2WT</data>
+  <data key="d3">-133.4878036469948</data>
+  <data key="d4">96.9845671059055</data>
+</node>
+<node id="WT_KRASWT">
+  <data key="d0">yes</data>
+  <data key="d1">#f26924</data>
+  <data key="d2">KRASWT</data>
+  <data key="d3">-164.99999803304672</data>
+  <data key="d4">-1.1998805610848763e-05</data>
+</node>
+<node id="WT_NRASWT">
+  <data key="d0">yes</data>
+  <data key="d1">#f68b22</data>
+  <data key="d2">NRASWT</data>
+  <data key="d3">-133.48779381222846</data>
+  <data key="d4">-96.98457208876695</data>
+</node>
+<node id="WT_HRASWT">
+  <data key="d0">yes</data>
+  <data key="d1">#faa61e</data>
+  <data key="d2">HRASWT</data>
+  <data key="d3">-50.98782380826578</data>
+  <data key="d4">-156.92431590597866</data>
+</node>
+<node id="WT_ARAFWT">
+  <data key="d0">yes</data>
+  <data key="d1">#174a92</data>
+  <data key="d2">ARAFWT</data>
+  <data key="d3">50.98782577521904</data>
+  <data key="d4">-156.92431590597866</data>
+</node>
+<node id="WT_BRAFWT">
+  <data key="d0">yes</data>
+  <data key="d1">#4f88c7</data>
+  <data key="d2">BRAFWT</data>
+  <data key="d3">133.48779577918174</data>
+  <data key="d4">-96.98457208876695</data>
+</node>
+<node id="WT_PPP6R3">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R3</data>
+  <data key="d3">82.35984469553154</data>
+  <data key="d4">-92.40057047415877</data>
+</node>
+<node id="WT_PPP6R1">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R1</data>
+  <data key="d3">68.39981451738313</data>
+  <data key="d4">-74.74922450905314</data>
+</node>
+<node id="WT_PPP6R2">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R2</data>
+  <data key="d3">42.271830356927204</data>
+  <data key="d4">-75.59806715928976</data>
+</node>
+<node id="WT_ANKRD52">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">ANKRD52</data>
+  <data key="d3">68.18603598654836</data>
+  <data key="d4">-14.488313130915772</data>
+</node>
+<node id="WT_PPP6C">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6C</data>
+  <data key="d3">45.01155994036494</data>
+  <data key="d4">-93.99515149145981</data>
+</node>
+<node id="WT_ANKRD28">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">ANKRD28</data>
+  <data key="d3">64.36674881213582</data>
+  <data key="d4">-101.90809111526009</data>
+</node>
+<node id="Active_BRAFV600E">
+  <data key="d0">yes</data>
+  <data key="d1">#4f88c7</data>
+  <data key="d2">BRAFV600E</data>
+  <data key="d3">765.0</data>
+  <data key="d4">-9.834766671268376e-07</data>
+</node>
+<node id="Active_RAF1S257L">
+  <data key="d0">yes</data>
+  <data key="d1">#a1bce2</data>
+  <data key="d2">RAF1S257L</data>
+  <data key="d3">750.7349954906254</data>
+  <data key="d4">67.11154690010832</data>
+</node>
+<node id="Active_RAF1S259F">
+  <data key="d0">yes</data>
+  <data key="d1">#a1bce2</data>
+  <data key="d2">RAF1S259F</data>
+  <data key="d3">710.4065414436557</data>
+  <data key="d4">122.61890606676369</data>
+</node>
+<node id="Active_MEK1DD">
+  <data key="d0">yes</data>
+  <data key="d1">#009147</data>
+  <data key="d2">MEK1DD</data>
+  <data key="d3">650.9877972241701</data>
+  <data key="d4">156.92433263938193</data>
+</node>
+<node id="Active_MEK2DD">
+  <data key="d0">yes</data>
+  <data key="d1">#88be40</data>
+  <data key="d2">MEK2DD</data>
+  <data key="d3">582.7527907513886</data>
+  <data key="d4">164.09611986953763</data>
+</node>
+<node id="Active_ERK1DD">
+  <data key="d0">yes</data>
+  <data key="d1">#a62877</data>
+  <data key="d2">ERK1DD</data>
+  <data key="d3">517.4999830350275</data>
+  <data key="d4">142.89419219288385</data>
+</node>
+<node id="Active_ERK2DD">
+  <data key="d0">yes</data>
+  <data key="d1">#dfa0c2</data>
+  <data key="d2">ERK2DD</data>
+  <data key="d3">466.5121859747702</data>
+  <data key="d4">96.98456706856932</data>
+</node>
+<node id="Active_KRASG12D">
+  <data key="d0">yes</data>
+  <data key="d1">#f26924</data>
+  <data key="d2">KRASG12D</data>
+  <data key="d3">438.60563231961265</data>
+  <data key="d4">34.30541575437491</data>
+</node>
+<node id="Active_KRASG12V">
+  <data key="d0">yes</data>
+  <data key="d1">#f26924</data>
+  <data key="d2">KRASG12V</data>
+  <data key="d3">438.6056421543793</data>
+  <data key="d4">-34.305447225628264</data>
+</node>
+<node id="Active_NRASQ61K">
+  <data key="d0">yes</data>
+  <data key="d1">#f68b22</data>
+  <data key="d2">NRASQ61K</data>
+  <data key="d3">466.5121958095369</data>
+  <data key="d4">-96.9845788702893</data>
+</node>
+<node id="Active_NRASQ61R">
+  <data key="d0">yes</data>
+  <data key="d1">#f68b22</data>
+  <data key="d2">NRASQ61R</data>
+  <data key="d3">517.5000076219442</data>
+  <data key="d4">-142.89420399460386</data>
+</node>
+<node id="Active_HRASG13R">
+  <data key="d0">yes</data>
+  <data key="d1">#faa61e</data>
+  <data key="d2">HRASG13R</data>
+  <data key="d3">582.7528202556886</data>
+  <data key="d4">-164.09612183649094</data>
+</node>
+<node id="Active_HRASQ61R">
+  <data key="d0">yes</data>
+  <data key="d1">#faa61e</data>
+  <data key="d2">HRASQ61R</data>
+  <data key="d3">650.9878218110867</data>
+  <data key="d4">-156.9243247715686</data>
+</node>
+<node id="Active_ARAFS214P">
+  <data key="d0">yes</data>
+  <data key="d1">#174a92</data>
+  <data key="d2">ARAFS214P</data>
+  <data key="d3">710.4065709479556</data>
+  <data key="d4">-122.61887852941699</data>
+</node>
+<node id="Active_BRAFG469A">
+  <data key="d0">yes</data>
+  <data key="d1">#4f88c7</data>
+  <data key="d2">BRAFG469A</data>
+  <data key="d3">750.7350151601587</data>
+  <data key="d4">-67.11152428014496</data>
+</node>
+<node id="Active_PPP6R3">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R3</data>
+  <data key="d3">717.1943367142256</data>
+  <data key="d4">55.95695228514179</data>
+</node>
+<node id="Active_PPP6R1">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R1</data>
+  <data key="d3">682.7971433228392</data>
+  <data key="d4">38.42344990636119</data>
+</node>
+<node id="Active_PPP6R2">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6R2</data>
+  <data key="d3">736.7688039535121</data>
+  <data key="d4">36.10338091458758</data>
+</node>
+<node id="Active_ANKRD52">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">ANKRD52</data>
+  <data key="d3">721.3481666652494</data>
+  <data key="d4">-13.110548026171431</data>
+</node>
+<node id="Active_PPP6C">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">PPP6C</data>
+  <data key="d3">706.9449145809302</data>
+  <data key="d4">11.19448334523132</data>
+</node>
+<node id="Active_ANKRD28">
+  <data key="d0">no</data>
+  <data key="d1">#cccccc</data>
+  <data key="d2">ANKRD28</data>
+  <data key="d3">723.9028473530168</data>
+  <data key="d4">11.174264491208623</data>
+</node>
+<edge source="Inactive_MEK2AA" target="Inactive_ANKRD52">
+  <data key="d5">TbID</data>
+</edge>
+<edge source="Inactive_ARAFD447A" target="Inactive_PPP6C">
+  <data key="d5">both</data>
+</edge>
+<edge source="Inactive_ARAFD447A" target="Inactive_PPP6R1">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Inactive_ARAFD447A" target="Inactive_PPP6R3">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Inactive_ANKRD52" target="Inactive_PPP6R3">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Inactive_ANKRD52" target="Inactive_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Inactive_ANKRD52" target="Inactive_PPP6R1">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Inactive_PPP6R3" target="Inactive_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Inactive_PPP6R3" target="Inactive_PPP6R1">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Inactive_PPP6C" target="Inactive_PPP6R1">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_MEK1WT" target="WT_ANKRD52">
+  <data key="d5">TbID</data>
+</edge>
+<edge source="WT_MEK2WT" target="WT_ANKRD52">
+  <data key="d5">TbID</data>
+</edge>
+<edge source="WT_ARAFWT" target="WT_ANKRD28">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="WT_ARAFWT" target="WT_ANKRD52">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="WT_ARAFWT" target="WT_PPP6C">
+  <data key="d5">both</data>
+</edge>
+<edge source="WT_ARAFWT" target="WT_PPP6R1">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="WT_ARAFWT" target="WT_PPP6R2">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="WT_ARAFWT" target="WT_PPP6R3">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="WT_PPP6R3" target="WT_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R3" target="WT_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R3" target="WT_PPP6R1">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R3" target="WT_PPP6R2">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R3" target="WT_ANKRD52">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R1" target="WT_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R1" target="WT_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R1" target="WT_PPP6R2">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R1" target="WT_ANKRD52">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R2" target="WT_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R2" target="WT_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6R2" target="WT_ANKRD52">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_ANKRD52" target="WT_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_ANKRD52" target="WT_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="WT_PPP6C" target="WT_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_RAF1S257L" target="Active_ANKRD28">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S257L" target="Active_ANKRD52">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S257L" target="Active_PPP6C">
+  <data key="d5">both</data>
+</edge>
+<edge source="Active_RAF1S257L" target="Active_PPP6R1">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S257L" target="Active_PPP6R2">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S257L" target="Active_PPP6R3">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S259F" target="Active_ANKRD28">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S259F" target="Active_PPP6C">
+  <data key="d5">both</data>
+</edge>
+<edge source="Active_RAF1S259F" target="Active_PPP6R1">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_RAF1S259F" target="Active_PPP6R3">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_MEK2DD" target="Active_PPP6R1">
+  <data key="d5">both</data>
+</edge>
+<edge source="Active_ARAFS214P" target="Active_ANKRD28">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_ARAFS214P" target="Active_ANKRD52">
+  <data key="d5">both</data>
+</edge>
+<edge source="Active_ARAFS214P" target="Active_PPP6C">
+  <data key="d5">both</data>
+</edge>
+<edge source="Active_ARAFS214P" target="Active_PPP6R1">
+  <data key="d5">AP-MS</data>
+</edge>
+<edge source="Active_PPP6R3" target="Active_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R3" target="Active_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R3" target="Active_PPP6R1">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R3" target="Active_PPP6R2">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R3" target="Active_ANKRD52">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R1" target="Active_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R1" target="Active_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R1" target="Active_PPP6R2">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R1" target="Active_ANKRD52">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R2" target="Active_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R2" target="Active_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6R2" target="Active_ANKRD52">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_ANKRD52" target="Active_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_ANKRD52" target="Active_PPP6C">
+  <data key="d5">CORUM</data>
+</edge>
+<edge source="Active_PPP6C" target="Active_ANKRD28">
+  <data key="d5">CORUM</data>
+</edge>
+</graph></graphml>

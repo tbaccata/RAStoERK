@@ -1,0 +1,11 @@
+protein	method	prey	log2fc	mutant	node
+HRAS	AP-MS	PLCE1	1	Q61R	RAS
+HRAS	TurboID	PIK3CA	0.77	WT	RAS
+RAF1	AP-MS	PIK3R1	1.16	WT	RAF
+RAF1	TurboID	PIK3R1	0.84	WT	RAF
+MEK2	AP-MS	MAPK1	0.99	WT	MEK
+MEK2	TurboID	KSR1	0.87	DD	MEK
+ERK2	AP-MS	FGFR1	0.97	WT	ERK
+ERK1	TurboID	MKNK1	0.84	WT	ERK
+global	AP-MS	-	0.73	global	datasetb
+global	TurboID	-	0.77	global	datasetb

@@ -1,0 +1,13 @@
+set	count	type
+missing	155	WT
+ERK2	114	WT
+ERK1	50	WT
+common	94	WT
+missing	210	Inactive
+ERK2	114	Inactive
+ERK1	39	Inactive
+common	50	Inactive
+missing	255	Active
+ERK2	46	Active
+ERK1	70	Active
+common	42	Active

@@ -4,7 +4,7 @@
 
 **RAStoERK: A Reference Interaction Atlas for Insights into Signaling and Disease**
 
-![logo](asset/favico.png)
+![logo](asset/favicon.ico)
 
 * **Authors:** Georg Vucak, Sebastian Didusch, Leandro Cannizzaro, Ana Santiago, Markus Hartl, Jörg Menche, Manuela Baccarini
 

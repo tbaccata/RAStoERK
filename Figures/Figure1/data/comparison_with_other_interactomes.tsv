@@ -1,0 +1,13 @@
+nbaits	npreys	dataSet	method	label	reference
+1	29	Kim M. et al.(2021)	AP-MS	Kim et al.	intact:EBI-34580698|pubmed:34591612|imex:IM-29535
+6	30	Cho NH. et al.(2022)	AP-MS	OpenCell	intact:EBI-52315730|pubmed:35271311|imex:IM-30001
+3	45	So J. et al.(2015)	AP-MS	So et al.	intact:EBI-10054708|pubmed:25852190|imex:IM-23674
+4	57	Hein MY. et al.(2015)	AP-MS	Hein et al.	intact:EBI-10888342|pride:PXD002829|pride:PXD002815|doi:10.1016/j.cell.2015.09.053|pubmed:26496610|imex:IM-24272
+3	67	Swaney DL. et al.(2021)	AP-MS	Swaney et al.	intact:EBI-34583960|pubmed:34591642|imex:IM-29816
+5	103	Huttlin EL. et al.(2021)	AP-MS	BioPlex3.0	intact:EBI-27103963|doi:10.1016/j.cell.2021.04.011|pubmed:33961781|imex:IM-29278
+7	149	Buljan M. et al.(2020)	AP-MS	Buljan et al.	intact:EBI-27101182|doi:10.1016/j.molcel.2020.07.001|pubmed:32707033|imex:IM-29257
+1	205	Luis F. Iglesias-Martinez et al.(2023)	AP-MS	Iglesias-Martinez et al.	intact:EBI-40206361|pubmed:37045861|imex:IM-29658
+7	200	Kennedy SA et al.(2019)	AP-MS	EGFR network	intact:EBI-22274189|pubmed:31980649|imex:IM-26434
+3	470	Adhikari H. et al.(2018)	BioID	Adhikari et al.	intact:EBI-27027937|pubmed:30194290|imex:IM-29117
+10	1496	IntAct_2025		IntAct_2025	
+35	2541	Both_allbaits	Combined	all	
