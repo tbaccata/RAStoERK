@@ -36,27 +36,13 @@
 
 | Folder | Contents |
 | --- | --- |
-| **data/raw** | Spectronaut output and global analysis files (log2 FC thresholds, bystander list).
-
- |
-| **data/interim** | Intermediate analysis data structures.
-
- |
-| **data/processed** | Statistical outputs from limma/DEqMS and Cytoscape `.graphml` files.
-
- |
-| **data/integration** | IntAct comparison data and downloaded huMAP3.0 complexes.
-
- |
-| **data/networks** | External network resources.
-
- |
-| **src/** | Analysis scripts (`src/pipeline` for stats, `src/Figures` for output/tables).
-
- |
-| **Figures/** | Individual figure panels and source data (`Figure/data`).
-
- |
+| **data/raw** | Spectronaut output and global analysis files (log2 FC thresholds, bystander list). |
+| **data/interim** | Intermediate analysis data structures. |
+| **data/processed** | Statistical outputs from limma/DEqMS and Cytoscape `.graphml` files. |
+| **data/integration** | IntAct comparison data and downloaded huMAP3.0 complexes. |
+| **data/networks** | External network resources. |
+| **src/** | Analysis scripts (`src/pipeline` for stats, `src/Figures` for output/tables). |
+| **Figures/** | Individual figure panels and source data (`Figure/data`). |
 
 ---
 
