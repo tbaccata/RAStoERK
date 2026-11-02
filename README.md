@@ -1,5 +1,6 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-10.64898/2026.04.07.716061v1-b31b1b.svg)](https://biorxiv.org/content/10.64898/2026.04.07.716061v1)
+[![Cell Reports](https://img.shields.io/badge/Cell_Reports-10.1016%2Fj.celrep.2026.118201-orange.svg)](https://doi.org/10.1016/j.celrep.2026.118201)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22798879.svg)](https://doi.org/10.5281/zenodo.22798879)
 
 
